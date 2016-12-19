@@ -46,3 +46,5 @@ gulp.task("watch", ["scss", "images", "js"], function () {
 })
 
 gulp.task('default', ['scss', 'images', 'js', 'watch']);
+
+gulp.task('publish', ['scss', 'images', 'js']);
