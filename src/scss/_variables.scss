@@ -1,0 +1,50 @@
+// Override variables here
+// You can add new ones or update existing ones:
+
+$family-serif: "Georgia", serif;
+$family-primary: $family-serif;
+
+$black: #111111;
+$grey-darker: #363636;
+$grey-dark: #4a4a4a;
+$grey: #AAAAAA;
+$grey-light: #DDDDDD;
+$grey-lighter: #dbdbdb;
+$white: #fff;
+$aqua: #7FDBFF;
+$blue: #0074D9;
+$navy: #001f3f;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime: #01FF70;
+$orange: #FF851B;
+$purple: #B10DC9;
+$fuchsia: #F012BE;
+$maroon: #85144b;
+$red: #FF4136;
+$turquoise: #39CCCC;
+$yellow: #FFDC00;
+
+
+$primary:	$turquoise;
+$info:	$blue;
+$success:	$green;
+$warning:	$yellow;
+$danger:	$red;
+$light: $grey-lighter;
+$dark:	$grey-dark;
+$text:	$black;
+
+$body-background:	$white;
+$background:	$grey-lighter;
+$border:	$grey-light;
+$border-hover:	$grey;
+
+$text-invert:	findColorInvert($text);
+$text-light:	$grey;
+$text-strong:	$white;
+
+$code:	$red;
+$code-background:	$background;
+$pre:	$text;
+$pre-background:	$background;

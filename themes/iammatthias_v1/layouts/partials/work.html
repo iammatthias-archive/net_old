@@ -1,0 +1,28 @@
+<section class="section">
+<div  class="container">
+<div class="columns is-multiline is-mobile level">
+        {{ range first 10 .Data.Pages }}
+        {{ if eq .Type "work" }}
+<div class="column is-one-quarter-desktop is-one-quarter-tablet is-12-mobile level-left">
+            <article>
+                <h1>
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+                </h1>
+                <a href="{{ .Permalink }}">
+                    Read the full article
+                </a>
+            </article>
+</div>
+<div class="column is-three-quarters-desktop is-three-quarters-tablet is-12-mobile level-right">
+            <article >
+                {{ .Description }}
+            </article>
+</div>
+        {{ end }}
+        {{ end }}
+</div>
+</div>
+</div>
+</section>

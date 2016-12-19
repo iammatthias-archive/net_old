@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head" . }}
+
+<body>
+{{ partial "nav" . }}
+{{ partial "hero-blog" . }}
+  <section class="section">
+    <div class="container">
+        <div class="content">
+        <article class="blog">
+                {{ .Content }}
+        </article>
+                <br>
+                <p><a href="/blog/">Back to posts</a></p>
+                <p><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}">Previous</a> | <a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}">Next</a></p>
+        </div>
+    </div>
+</section>
+{{ partial "footer" . }}
+</body>
+<html>

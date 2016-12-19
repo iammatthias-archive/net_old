@@ -1,0 +1,32 @@
+baseurl = "/"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+publishdir = "public"
+author = "Matthias Jordan"
+title = "I Am Matthias"
+themesdir = "themes"
+theme = "iammatthias_v1"
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+author = "Matthias Jordan"
+# avatar = "" # path to image in static dir e.g img/avatar.png (do not use in the same time as Gravatar)
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Photographer / Chef / Digital Marketing + Product"
+title = "I Am Matthias"
+email = "me@iammatthias.com"
+faviconfile = ""
+gatracker = ""
+github = "//github.com/iammatthias"
+lang = "en"
+twitter = "//twitter.com/iammatthias"
+hero = "http://cdn.iammatthias.com/media/bg.jpg"
+
+[taxonomies]
+tag = "tags"

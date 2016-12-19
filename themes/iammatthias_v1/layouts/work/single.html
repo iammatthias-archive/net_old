@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head" . }}
+
+<body>
+{{ partial "nav" . }}
+    <div class="container">
+        <article>
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </article>
+    </div>
+</body>
+<html>

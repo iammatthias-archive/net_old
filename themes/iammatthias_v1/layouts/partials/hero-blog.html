@@ -1,0 +1,20 @@
+<section class="hero is-large" style="background: url({{ .Params.image }}) no-repeat center center fixed; background-size: cover;">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title hs-font">
+        {{ .Title }}
+      </h1>
+      <h2 class="subtitle ">
+        {{ .Site.Params.author}}
+      </h2>
+            <h2 class="subtitle">
+              {{ .Date.Format .Site.Params.dateform }} </br>{{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute to read{{ else }}{{ .ReadingTime }} minutes to read{{ end }}<br />
+            </h2>
+  <h2 class="subtitle">
+Tags:  {{ range .Params.tags }}
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+{{ end }}
+  </h2>
+    </div>
+  </div>
+</section>
