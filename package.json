@@ -13,6 +13,7 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-hash": "^3.1.0",
-    "gulp-sass": "^3.0.0"
+    "gulp-sass": "^3.0.0",
+    "bulma": "^0.2.3"
   }
 }
