@@ -28,6 +28,14 @@ gulp.task("images", function () {
         .pipe(gulp.dest("data/images"))
 })
 
+gulp.task("photos", function () {
+    del(["themes/iammatthias_v1/static/photos/**/*"])
+    gulp.src("src/photos/**/*")
+        .pipe(gulp.dest("themes/iammatthias_v1/static/photos"))
+        .pipe(hash.manifest("hash.json"))
+        .pipe(gulp.dest("data/photos"))
+})
+
 // Hash javascript
 gulp.task("js", function () {
     del(["themes/iammatthias_v1/static/js/**/*"])
@@ -45,6 +53,6 @@ gulp.task("watch", ["scss", "images", "js"], function () {
     gulp.watch("src/js/**/*", ["js"])
 })
 
-gulp.task('default', ['scss', 'images', 'js', 'watch']);
+gulp.task('default', ['scss', 'images', 'photos', 'js', 'watch']);
 
 gulp.task('publish', ['scss', 'images', 'js']);
