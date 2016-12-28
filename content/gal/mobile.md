@@ -1,6 +1,6 @@
 +++
 title = "Mobile"
-date = "None"
+date = "2016-12-26T10:57:38-08:00"
 
 cover = ""
 +++
