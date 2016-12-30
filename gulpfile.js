@@ -22,7 +22,7 @@ gulp.task("scss", function () {
 gulp.task("images", function () {
     del(["themes/iammatthias_v1/static/images/**/*"])
     gulp.src("src/images/**/*")
-        .pipe(hash())
+
         .pipe(gulp.dest("themes/iammatthias_v1/static/images"))
         .pipe(hash.manifest("hash.json"))
         .pipe(gulp.dest("data/images"))

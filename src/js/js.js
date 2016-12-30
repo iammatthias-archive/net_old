@@ -5,9 +5,3 @@
       $(this).toggleClass('is-active');
       $menu.toggleClass('is-active');
     });
-
-$('.grid').isotope({
-  // options
-  itemSelector: '.grid-item',
-  layoutMode: 'fitRows'
-});

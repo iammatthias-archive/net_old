@@ -21,25 +21,17 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             }
 
             linkEl = figureEl.children[0]; // <a> element
-        if (linkEl === undefined)
-            continue;
 
             size = linkEl.getAttribute('data-size').split('x');
-        mediumSize = linkEl.getAttribute('data-medium-size').split('x');
 
             // create slide object
             item = {
-            originalImage: {
                 src: linkEl.getAttribute('href'),
-                        w: parseInt(size[0], 10),
-                            h: parseInt(size[1], 10)
-            },
-            mediumImage: {
-                src: linkEl.getAttribute('data-medium-url'),
-                w: parseInt(mediumSize[0], 10),
-                h: parseInt(mediumSize[1], 10)
-            }
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
             };
+
+
 
             if(figureEl.children.length > 1) {
                 // <figcaption> content
@@ -48,7 +40,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             if(linkEl.children.length > 0) {
                 // <img> thumbnail element, retrieving thumbnail url
-        //item.msrc = linkEl.children[0].getAttribute('src');
+                item.msrc = linkEl.children[0].getAttribute('src');
             }
 
             item.el = figureEl; // save link to element for getThumbBoundsFn
@@ -189,73 +181,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             options.showAnimationDuration = 0;
         }
 
-    // Gertjan: this was added because thumbnails are square and pictures
-    // are typically not.
-    options.showHideOpacity = true;
-
-    // Pass data to PhotoSwipe and initialize it
+        // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-
-    // Added by Gertjan
-    var realViewportWidth,
-        useLargeImages = false,
-        firstResize = true,
-        imageSrcWillChange;
-
-    gallery.listen('beforeResize', function() {
-        // gallery.viewportSize.x - width of PhotoSwipe viewport
-        // gallery.viewportSize.y - height of PhotoSwipe viewport
-        // window.devicePixelRatio - ratio between physical pixels and
-        // device independent pixels (Number). 1 (regular display), 2
-        // (@2x, retina), ...
-
-        // calculate real pixels when size changes
-        realViewportWidth = gallery.viewportSize.x * window.devicePixelRatio;
-
-        // Code below is needed if you want to switch dynamically on
-        // window.resize
-
-        // Find out if current images need to be changed
-        if (useLargeImages && realViewportWidth< 1000) {
-            useLargeImages = false;
-            imageSrcWillChange = true;
-        } else if (!useLargeImages && realViewportWidth >= 1000) {
-            useLargeImages = true;
-            imageSrcWillChange = true;
-        }
-
-        // Invalidate items only when source is changed and when it's
-        // not the first update
-        if (imageSrcWillChange && !firstResize) {
-            // invalidateCurrItems sets a flag on slides that are
-            // in DOM, which will force update of content (image)
-            // on window.resize
-            gallery.invalidateCurrItems();
-        }
-
-        if (firstResize) {
-            firstResize = false;
-        }
-
-        imageSrcWillChange = false;
-    });
-
-    // gettingData event fires each time PhotoSwipe retrieves image source
-    // and size
-    gallery.listen('gettingData', function(index, item) {
-
-        // set image source & size based on real viewport width
-        if (useLargeImages) {
-            item.src = item.originalImage.src;
-            item.w = item.originalImage.w;
-            item.h = item.originalImage.h;
-        } else {
-            item.src = item.mediumImage.src;
-            item.w = item.mediumImage.w;
-            item.h = item.mediumImage.h;
-        }
-    });
-
         gallery.init();
     };
 
