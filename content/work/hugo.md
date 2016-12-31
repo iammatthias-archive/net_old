@@ -5,7 +5,7 @@ Description = ""
 resources = [
 ]
 slug = ""
-image = "http://cdn.iammatthias.com/gal/mobile/mobile-6.jpg"
+image = "/photos/events/coverimage.jpg"
 
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et purus pretium, pharetra eros sit amet, dictum tellus. Etiam sollicitudin lacinia justo. Quisque quis ligula eu tortor varius eleifend at at metus. Vestibulum id rhoncus diam. Aenean commodo tempus ante non hendrerit. Nunc a purus erat. Cras hendrerit lorem non augue faucibus, ut congue velit congue. Pellentesque ac porta purus. Maecenas metus est, pellentesque quis nisi sit amet, luctus pulvinar sem. Nullam nec placerat arcu. Suspendisse massa velit, pellentesque quis turpis cursus, fringilla interdum neque. Suspendisse scelerisque a enim at vulputate. Nullam dapibus vel massa nec tempus.

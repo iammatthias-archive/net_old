@@ -7,7 +7,8 @@
 {{ partial "nav" . }}
     <div class="container">
 
-<h1 class="text-primary">{{ .Title }}</h1>
+<h2 class="text-primary cent underline">{{ .Title }}</h2>
+<h4 class="text-primary cent">{{ .Description }}</h4>
 <div class="gallery" itemscope itemtype="https://schema.org/ImageGallery">
   {{ .Content }}
 </div>

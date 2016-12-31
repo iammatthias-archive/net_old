@@ -11,6 +11,9 @@ section {
     background: $body-background;
 font-family: 'Tenor Sans', sans-serif;
 }
+.shadow {
+box-shadow: 0px .618px 10px #888888;
+}
 
 .title, .subtitle {color: $white;
     font-family: $family-serif;}
@@ -31,7 +34,9 @@ strong { color: $red;
 footer {
     font-size: .618rem;
     margin-bottom: 2rem;
-    text-decoration: none;
+  a {
+  text-decoration: underline;
+}
 }
 
 .container {padding: 10px;}
@@ -58,28 +63,54 @@ a {
   font-weight: bold;
 }
 a:visited { color: $navy; }
-a:hover   { color: $aqua; }
+a:hover   { color: $aqua; transition: .618s ease-in-out;}
 a:active  {
-  transition: .55s ease-in-out;
+  transition: .618s ease-in-out;
   color: $aqua;
 }
 
 .nav-item a,
 a.nav-item {
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
   color: $black;
-  text-decoration: none;
 }
 
 .nav-item a:hover,
 a.nav-item:hover {
+border-bottom: 1px solid rgba(0, 0, 0, 0);
   color: $black;
-  text-decoration: none;
 }
 
 .nav-item a.is-active,
 a.nav-item.is-active {
   color: $black;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    background-color: white;
+    box-shadow: 0 4px 7px rgba(10, 10, 10, 0.1);
+    left: 0;
+    display: none;
+    right: 0;
+    top: 100%;
+    position: absolute;
+  }
+  .nav-menu .nav-item {
+    border-top: 1px solid rgba(219, 219, 219, 0.5);
+    padding: 4rem;
+  }
+  .nav-menu.is-active {
+    display: block;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, .content h1, .content h2, .content h3, .content h4,  .content h5,  .content h6{
@@ -126,7 +157,6 @@ p {
 .port-card {
     position: relative;
     overflow: hidden;
-    max-height: 700px;
     margin-bottom: 0.5rem;
 }
 
@@ -136,16 +166,21 @@ p {
     width: 100%;
     text-align: center;
     font-size: 18px;
+  -webkit-text-stroke: .618px $black;
+  -webkit-text-fill-color: $white;
 }
 
 .port-image {
-    height: 100%;
     height: auto;
-    opacity: 0.3;
-    transition: opacity .55s ease-in-out;
+    margin: 0;
 }
-.port-image:hover {
-      opacity: 1;
+
+.hover {
+filter:hue-rotate(0deg);
+    transition: filter .618s ease-in-out;
+}
+.hover:hover {
+filter:hue-rotate(360deg);
       }
 
 // Sticky Footer
@@ -185,3 +220,7 @@ span[itemprop=copyrightHolder] {
     float: right;
     font-style: italic
 }
+
+.cent {text-align: center;}
+
+.underline {text-decoration: underline;}
