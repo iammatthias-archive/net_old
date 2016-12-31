@@ -9,31 +9,53 @@ header,
 html,
 section {
     background: $body-background;
+font-family: 'Tenor Sans', sans-serif;
 }
 
-.title, .subtitle {color: $white;}
+.title, .subtitle {color: $white;
+    font-family: $family-serif;}
 /* Type Scale */
 .title {
     font-size: 5rem;
+    font-weight: bold;
 }
 
 .subtitle {
     font-size: 1.25rem;
 }
 
-strong { color: $red;}
+strong { color: $red;
+            font-family: $family-serif;
+}
 
 footer {
     font-size: .618rem;
     margin-bottom: 2rem;
+    text-decoration: none;
 }
 
 .container {padding: 10px;}
+
+.content a:not(.button) {
+    border-bottom: 0px;
+    color: $navy;
+}
+
+.content a:not(.button):visited {
+    color: $navy;
+}
+
+.content a:not(.button):hover {
+color: $aqua
+}
+
 
 a {
   transition: color .4s;
   color: $navy;
   text-decoration: none;
+  font-family: $family-serif;
+  font-weight: bold;
 }
 a:visited { color: $navy; }
 a:hover   { color: $aqua; }
@@ -51,12 +73,22 @@ a.nav-item {
 .nav-item a:hover,
 a.nav-item:hover {
   color: $black;
+  text-decoration: none;
 }
 
 .nav-item a.is-active,
 a.nav-item.is-active {
   color: $black;
+  text-decoration: none;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $family-serif;
+  font-weight: bold;
+}
+
+small {  font-family: $family-serif;
+  font-weight: regular;}
 
 h1 {
     font-size: 3rem;
@@ -78,9 +110,17 @@ h5 {
     font-size: 1rem;
 }
 
-h6 {
+h6, small {
     font-size: 0.875rem;
 }
+
+p {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  font-family: $family-primary;
+  color: $black;
+}
+
 
 .port-card {
     position: relative;

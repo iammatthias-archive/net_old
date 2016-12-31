@@ -1,183 +1,564 @@
 article.blog {
 
-  text-align:center;
-  color:#000;
-  font-family:georgia, serif;
-  font-size:120%;
-  line-height:1.6;
-  margin:0;
-  padding:2em 2em 5em;
-  background:rgb(253, 253, 253);
-  margin:auto;
-  max-width:80%;
-  color:rgb(10, 10, 10);
+/*
+Gutenberg: A Meaningful Web Typography Starter Kit
+Website ....... http://matejlatin.github.io/Gutenberg/
+Version ....... 1.2.3
+Github ........ https://github.com/matejlatin/Gutenberg
+Authors ....... Matej Latin (@matejlatin)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/license.txt
 
-a {outline:none !important; font-weight:bold; text-decoration:none;}
-a:link {color:#c00;}
-a:visited {color:#606;}
-a:hover {color:#606;}
-a:active {color:#900; outline:none;}
+/* Defaults
+   ========================================================================== */
+@media screen and (min-width: 40em) {
+  body,
+  html {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-size: 100%;
+  font-family: Merriweather, Georgia, serif;
+  color: #222;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+@media screen and (min-width: 40em) {
+  html {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+
+* {
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin: 0px 0px 26px;
+  margin: 0rem 0rem 1.625rem;
+}
+@media screen and (min-width: 40em) {
+  * {
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-bottom: 31px;
+    margin-bottom: 1.722222222222222rem;
+    max-width: 61.8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* Links
+   ========================================================================== */
+
+article {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+@media screen and (min-width: 40em) {
+  article {
+    max-width: 945px;
+    max-width: 52.5rem;
+  }
+}
+
+audio {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+canvas {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+}
+
+code {
+  padding: 26px;
+  padding: 1.625rem;
+  display: block;
+}
+@media screen and (min-width: 40em) {
+  code {
+    padding: 31px;
+    padding: 1.722222222222222rem;
+  }
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: block;
+}
+
+figcaption {
+  line-height: 26px;
+  line-height: 1.625rem;
+  color: #222;
+  display: block;
+  font-size: .8125rem;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media screen and (min-width: 40em) {
+  figcaption {
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-bottom: 0;
+  }
+}
+
+figure {
+  display: block;
+}
+
+@media screen and (min-width: 40em) {
+  figure.floatLeft,
+  figure.floatRight {
+    max-width: 315px;
+    max-width: 17.5rem;
+    padding: 0px 31px;
+    padding: 0rem 1.722222222222222rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  figure.floatLeft blockquote,
+  figure.floatRight blockquote {
+    padding: 0px;
+    padding: 0rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 40em) {
+  figure.floatLeft blockquote p,
+  figure.floatRight blockquote p {
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+  }
+}
+
+/* Headings
+   ========================================================================== */
 h1 {
-  font-size:300%;
-  line-height:1.2;
-  font-style:normal;
-  margin:2.5em 0 1em;
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 52px;
+  line-height: 3.25rem;
+  margin-top: 104px;
+  margin-top: 6.5rem;
+  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
 }
 
 h2 {
-  font-weight:bold;
-  font-size:200%;
-  line-height: 140%;
-  margin:1.5em 0 0.75em;
+  font-size: 27px;
+  font-size: 1.6875rem;
+  line-height: 39px;
+  line-height: 2.4375rem;
+  margin-top: 65px;
+  margin-top: 4.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
 }
 
 h3 {
-  font-weight:normal;
-  text-transform:uppercase;
-  font-size:150%;
-  letter-spacing:0.15em;
-  margin:1.75em 0 0.75em;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 52px;
+  margin-top: 3.25rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
 }
 
 h4 {
-  font-weight:normal;
-  font-size:150%;
-  letter-spacing:0.1em;
-  margin:1.5em 0 0.75em;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 39px;
+  margin-top: 2.4375rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
 }
 
 h5 {
-  font-weight:normal;
-  font-style:italic;
-  font-size:150%;
-  margin:1.5em 0 0.75em;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 65px;
+  margin-top: 4.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
 }
 
 h6 {
-  font-weight:bold;
-  font-size:100%;
-  letter-spacing:0.1em;
-  margin:1.5em 0 0.75em;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 65px;
+  margin-top: 4.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
 }
 
-p {
-  text-align:left;
-  font-size:100%;
-  margin:1em 0 0;
-}
-
-/*
-h1 + p {
-  font-size:150%;
-  margin:1em 0;
-}
-*/
-
-p + p {
-  margin:0;
-  text-indent:1.5em;
-}
-
-h1 + p {
-  text-indent:0;
-}
-
-p + ul, p + ol, p + dl {margin-bottom:1.5em;}
-
-img { max-width: 100%; }
-
-figure {margin: 2em 0 1.5em 0; width: 100%; text-align: center;}
-figure img {border: 1px solid #ccc;}
-figcaption {font-size: 66%;padding: 1em; padding-top: 0.5em;color: #aaa;}
-
-blockquote {border-left:5px solid #eee; padding-left:1.5em; margin:1em 0;}
-blockquote p {text-indent: 0 !important;font-style: italic;}
-blockquote small {display:block; line-height:1.7em;}
-
-ul, ol, dl {
-  text-align:left;
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 62px;
+    line-height: 3.444444444444445rem;
+    margin-top: 124px;
+    margin-top: 6.888888888888889rem;
+    margin-bottom: 31px;
+    margin-bottom: 1.722222222222222rem;
   }
 
-ul, ol {
-  padding-left: 1.2em;
+  h2 {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 46.5px;
+    line-height: 2.583333333333334rem;
+    margin-top: 77.5px;
+    margin-top: 4.305555555555556rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-top: 62px;
+    margin-top: 3.444444444444445rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+  }
+
+  h4 {
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-top: 46.5px;
+    margin-top: 2.583333333333334rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-top: 77.5px;
+    margin-top: 4.305555555555556rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-top: 77.5px;
+    margin-top: 4.305555555555556rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+  }
+}
+h1 + h2 {
+  margin-top: 26px;
+  margin-top: 1.625rem;
+}
+@media screen and (min-width: 40em) {
+  h1 + h2 {
+    margin-top: 31px;
+    margin-top: 1.722222222222222rem;
+  }
 }
 
-ul li, ol li {
-	padding-left: 0.3em;
-    margin-top: 0.6em;
+h2 + h3,
+h3 + h4,
+h4 + h5 {
+  margin-top: 13px;
+  margin-top: 0.8125rem;
+}
+@media screen and (min-width: 40em) {
+  h2 + h3,
+  h3 + h4,
+  h4 + h5 {
+    margin-top: 15.5px;
+    margin-top: 0.861111111111111rem;
+  }
 }
 
-li p {margin-top: 0px; text-indent: 0em;}
-li {margin-bottom: 0.6em;}
-
-code {font-family: Menlo, monospace; font-size:80%;}
-p > code {padding:0.2em 0.4em; background:#eee;}
-pre {text-align:left; overflow-x: scroll; background: #eee; padding: 10pt 20pt; border-radius: 5pt;}
-
-hr {border: none; margin:1.5em 0 1.5em;font-size:200%;color: #ddd; height: 1em;}
-hr:after {content: "❧"}
-
-h1 + hr {margin:-0.5em 0 1.5em; font-size: 400%;}
-
-ol#footnotes { margin-top: 4.5em;border-top: 1px solid #eee; padding-top: 1em; font-size: 80%;padding-left: 1.5em;}
-
-ol#footnotes p {text-indent: 0px;}
-
-figure + p {
-	text-indent: 0em !important;
+h5 + h6 {
+  margin-top: -13px;
+  margin-top: -0.8125rem;
+}
+@media screen and (min-width: 40em) {
+  h5 + h6 {
+    margin-top: -15.5px;
+    margin-top: -0.861111111111111rem;
+  }
 }
 
-@keyframes highfade {
-    0% {
-		background-color: none;
-    }
-    20% {
-		background-color: yellow;
-	}
-    100% {
-		background-color: none;
-    }
+h6 {
+  font-style: italic;
+  font-weight: normal;
 }
 
-@-webkit-keyframes highfade {
-    0% {
-		background-color: none;
-    }
-    20% {
-		background-color: yellow;
-	}
-    100% {
-		background-color: none;
-    }
+hgroup {
+  display: block;
 }
 
-a:target, ol#footnotes li:target, sup a:target  {
-    animation-name: highfade;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-name: highfade;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: ease-in-out;
+hr {
+  margin-top: 52px;
+  margin-top: 3.25rem;
+  margin-bottom: 52px;
+  margin-bottom: 3.25rem;
+  box-sizing: content-box;
+  border: 0;
+  color: #222;
+  display: block;
+  height: 26px;
+  height: 1.625rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: 100% 26px;
+  background-size: 100% 1.625rem;
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #222 11px, #222 15px, transparent 15px, transparent 26px);
+  width: 100px;
+}
+@media screen and (min-width: 40em) {
+  hr {
+    margin-top: 62px;
+    margin-top: 3.444444444444445rem;
+    margin-bottom: 62px;
+    margin-bottom: 3.444444444444445rem;
+    height: 31px;
+    height: 1.722222222222222rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  hr {
+    background-size: 100% 31px;
+    background-size: 100% 1.722222222222222rem;
+    background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, #222 13.5px, #222 17.5px, transparent 17.5px, transparent 31px);
+  }
 }
 
-@media screen and (max-width: 736px) {
-	body {
-		padding: 1em 20px 1em 20px;
-		font-size: 120%;
-	}
-	h1 {
-		font-size: 250%;
-	}
-	h2 {
-		font-size: 150%;
-	}
-	h3, h4, h5 {
-		font-size: 140%;
-	}
+img {
+  border: 0;
+  max-width: 100%;
+  display: block;
+  margin: inherit auto;
 }
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0;
+}
+
+nav {
+  display: block;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+blockquote {
+  font-style: italic;
+  padding-left: 1.4375rem;
+}
+@media screen and (min-width: 40em) {
+  blockquote {
+    padding-left: 2rem;
+  }
+}
+
+cite {
+  display: block;
+  font-style: normal;
+}
+
+figure blockquote {
+  padding: 26px 0px;
+  padding: 1.625rem 0rem;
+}
+@media screen and (min-width: 40em) {
+  figure blockquote {
+    padding: 62px 0px 31px;
+    padding: 3.444444444444445rem 0rem 1.722222222222222rem;
+    text-align: center;
+  }
+}
+figure blockquote p {
+  font-size: 27px;
+  font-size: 1.6875rem;
+  line-height: 39px;
+  line-height: 2.4375rem;
+}
+@media screen and (min-width: 40em) {
+  figure blockquote p {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 46.5px;
+    line-height: 2.583333333333334rem;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+br {
+  margin-bottom: 0;
+}
+
+abbr {
+  letter-spacing: 0.1em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+em,
+i {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  line-height: 13px;
+  line-height: 0.8125rem;
+  font-size: 70%;
+}
+@media screen and (min-width: 40em) {
+  small {
+    line-height: 15.5px;
+    line-height: 0.861111111111111rem;
+  }
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Paragraph
+========================================================================== */
+.attention-grabber {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.uppercase {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* TODOs:
+ - some line heights produce margins with .5 results, seemingly breaking the gird (?),
+ - add table and side comments elements,
+ */
+
+/*# sourceMappingURL=gutenberg.css.map */
+
 
 
 }

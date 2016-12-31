@@ -11,10 +11,11 @@
         <div class="content">
         <article class="blog">
                 {{ .Content }}
+    <br>
+    <p><a href="/blog/">Back to posts</a></p>
+    <p><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}">Previous</a> | <a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}">Next</a></p>
         </article>
-                <br>
-                <p><a href="/blog/">Back to posts</a></p>
-                <p><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}">Previous</a> | <a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}">Next</a></p>
+
         </div>
     </div>
 </section>
