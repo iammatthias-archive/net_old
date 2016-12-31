@@ -28,6 +28,8 @@ footer {
     margin-bottom: 2rem;
 }
 
+.container {padding: 10px;}
+
 a {
   transition: color .4s;
   color: $navy;
@@ -114,4 +116,31 @@ h6 {
 
 .Site-content {
     flex: 1;
+}
+
+
+.gallery {
+    min-height: 100%;
+    font-size: 0;
+    text-align: left
+}
+
+.gallery img {
+    opacity: .8;
+    filter: alpha(opacity=80)
+}
+
+.gallery img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.gallery figcaption {
+    display: none
+}
+
+span[itemprop=copyrightHolder] {
+    color: grey;
+    float: right;
+    font-style: italic
 }

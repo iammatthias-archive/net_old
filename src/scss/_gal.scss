@@ -1,0 +1,51 @@
+@media screen and (min-width:900px) {
+    .gallery {
+        text-align: center;
+        margin: 0 auto
+    }
+
+    .gallery figure {
+        display: inline-block;
+        margin: 15px 15px
+    }
+
+    .gallery img {
+        width: 100%;
+        margin: 0 auto
+    }
+}
+
+@media screen and (min-width:741px) and (max-width:900px) {
+      .gallery {
+          text-align: center;
+          margin: 0 auto
+      }
+
+      .gallery figure {
+          display: inline-block;
+          margin: 15px 15px
+      }
+
+      .gallery img {
+          width: 100%;
+          margin: 0 auto
+      }
+}
+
+@media screen and (max-width:740px) {
+    .gallery {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .gallery figure {
+
+        width: 100%;
+    }
+
+    .gallery img {
+        opacity: 1;
+        margin: 15px auto;
+        filter: alpha(opacity=100)
+    }
+}
