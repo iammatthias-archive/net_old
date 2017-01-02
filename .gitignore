@@ -1,6 +1,13 @@
 node_modules/
 data/**/hash.*
-static/
+static/**/*
 public/
+public/**/*
 .DS_Store
+**/.DS_Store
 .Ulysses-Group.plist
+**/.Ulysses-Group.plist
+src/images/**/*
+src/photos/**/*
+themes/iammatthias_v1/static/photos/
+themes/iammatthias_v1/static/images/
