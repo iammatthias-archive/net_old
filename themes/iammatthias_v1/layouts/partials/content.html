@@ -2,11 +2,11 @@
     <div class="container">
   <div class="columns is-multiline is-mobile level cent">
       {{ range first 12 .Data.Pages }} {{ if eq .Type "work" }}
-      <div class="column is-half-desktop is-half-tablet is-12-mobile port-card">
+      <div class="column is-half-desktop is-half-tablet is-12-mobile port-card ">
           <article>
               <a href="{{ .Permalink }}">
-                  <img src="{{ .Params.image }}" class="port-image hover" />
-                  <div class="port-center">
+                  <img src="{{ .Params.image }}" class="hover" />
+                  <div class="port-center ">
                         <h1 class="stroke">
                     {{ .Title }}
                         </h1> <h4 class="stroke">{{ .Description }}</h4>

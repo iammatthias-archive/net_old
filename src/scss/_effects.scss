@@ -15,7 +15,9 @@ filter: grayscale(85%) opacity(30%);
 filter: grayscale(0%) opacity(100%);
       }
 
-
+h1.opacity-full {
+filter: grayscale(0%) opacity(100%);
+}
 
 .cent {text-align: center;}
 
