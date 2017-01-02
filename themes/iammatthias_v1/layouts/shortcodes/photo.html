@@ -1,6 +1,6 @@
-<figure itemprop="associatedMedia" itemscope
+<figure class="grid-item hover animated fadeIn" itemprop="associatedMedia" itemscope
 itemtype="https://schema.org/ImageObject">
   <a href="{{ .Get "href"}}" itemprop="contentUrl" data-size="{{ .Get "largeDim"}}" data-medium-url="{{ .Get "smallUrl" }}" data-medium-size="{{ .Get "smallDim" }}">
-    <img class="shadow hover" alt="{{ .Get "alt"}}" data-size="{{ .Get "thumbSize"}}" itemprop="thumbnail" src="{{ .Get "thumbUrl"}}">
+    <img alt="{{ .Get "alt"}}" data-size="{{ .Get "smallDim"}}" itemprop="thumbnail" src="{{ .Get "smallUrl"}}">
   </a>
 </figure>

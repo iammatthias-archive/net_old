@@ -24,8 +24,6 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   font-size: 100%;
-  font-family: Merriweather, Georgia, serif;
-  color: #222;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -118,7 +116,7 @@ summary {
 figcaption {
   line-height: 26px;
   line-height: 1.625rem;
-  color: #222;
+  color: $white;
   display: block;
   font-size: .8125rem;
   font-style: italic;
@@ -352,7 +350,7 @@ hr {
   margin-bottom: 3.25rem;
   box-sizing: content-box;
   border: 0;
-  color: #222;
+  color: $white;
   display: block;
   height: 26px;
   height: 1.625rem;
@@ -360,7 +358,7 @@ hr {
   margin-left: auto;
   background-size: 100% 26px;
   background-size: 100% 1.625rem;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #222 11px, #222 15px, transparent 15px, transparent 26px);
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $white 11px, $white 15px, transparent 15px, transparent 26px);
   width: 100px;
 }
 @media screen and (min-width: 40em) {
@@ -377,7 +375,7 @@ hr {
   hr {
     background-size: 100% 31px;
     background-size: 100% 1.722222222222222rem;
-    background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, #222 13.5px, #222 17.5px, transparent 17.5px, transparent 31px);
+    background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, $white 13.5px, $white 17.5px, transparent 17.5px, transparent 31px);
   }
 }
 

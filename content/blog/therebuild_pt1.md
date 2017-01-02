@@ -1,0 +1,26 @@
++++
+resources = [
+]
+slug = ""
+Author = "Matthias Jordan"
+Description = "I rebuilt my site using Hugo, implemented Gulp as a build tool, and learned a lot in the process."
+date = "2016-12-11T21:47:53-08:00"
+title = "The Rebuild, Part 1"
+image = ""
+tags = ["hugo", "harp", "gulp", "aws"]
++++
+I rebuilt my site. Again.
+---
+ Around this time last year I finished rebuilding it as well. HarpJS was the static site generator of choice for a long time, but I recently made the jump to Hugo. That meant relearning, and redesigning some aspects of my site. It also took a lot longer than I thought. But here are some of the cool things that developed along the way.
+
+### Hugo
+
+Hugo is great. It's built in Go, and it's super fast. The folder hierarchy was a bit confusing a first, but I quickly wrapped my head around the way content is divorced from the markdown. Hugo also packages in a "live reload" function, which was super helpful while building this site. I started with my own "theme" so that future updates will (hopefully) be plug+play with an updated theme. We'll see how that goes when the time comes.
+
+### Gulp
+
+I always shied away from task runners like Grunt and Gulp. Part of it was that HarpJS handled the preprocessing for me, and part of it was that I just didn't want to learn *yet another tool*. But it was a necessary evil if I wanted to use Hugo with preprocessors like Sass. Turns out, it's not such an evil. The way it pipes assets is remarkably intuitive, and it speeds up a lot of the build process.
+
+### AWS
+
+~ coming soon ~

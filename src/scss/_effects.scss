@@ -1,0 +1,60 @@
+.shadow {
+box-shadow: 0px .618px 10px $turquoise;
+}
+
+.port-image {
+    height: auto;
+    margin: 0;
+}
+
+.hover {
+filter: grayscale(85%) opacity(30%);
+    transition: filter .618s ease-in-out;
+}
+.hover:hover {
+filter: grayscale(0%) opacity(100%);
+      }
+
+
+
+.cent {text-align: center;}
+
+.underline {text-decoration: underline;}
+
+.stroke {
+  -webkit-text-stroke: .618px $black;
+  -webkit-text-fill-color: $white;
+}
+
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}

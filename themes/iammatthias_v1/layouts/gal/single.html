@@ -6,10 +6,9 @@
 <body>
 {{ partial "nav" . }}
     <div class="container">
-
-<h2 class="text-primary cent underline">{{ .Title }}</h2>
-<h4 class="text-primary cent">{{ .Description }}</h4>
-<div class="gallery" itemscope itemtype="https://schema.org/ImageGallery">
+<h1 class="text-primary">{{ .Title }}</h1>
+<div class="grid gallery" itemscope itemtype="https://schema.org/ImageGallery">
+<div class="grid-sizer"></div>
   {{ .Content }}
 </div>
 
@@ -47,7 +46,6 @@
     </div>
   </div>
 </div>
-
     </div>
 {{ partial "footer" . }}
 {{ partial "script" . }}

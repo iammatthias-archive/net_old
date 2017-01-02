@@ -3,24 +3,27 @@
 }
 
 .nav,
+.section,
 body,
 footer,
 header,
 html,
 section {
     background: $body-background;
-font-family: 'Tenor Sans', sans-serif;
+font-family: $family-primary;
 }
-.shadow {
-box-shadow: 0px .618px 10px #888888;
+
+.hero.is-fullheight {
+  min-height: 85vh;
 }
 
 .title, .subtitle {color: $white;
-    font-family: $family-serif;}
+    font-family: $family-serif;
+    font-weight: bold;
+}
 /* Type Scale */
 .title {
     font-size: 5rem;
-    font-weight: bold;
 }
 
 .subtitle {
@@ -43,60 +46,57 @@ footer {
 
 .content a:not(.button) {
     border-bottom: 0px;
-    color: $navy;
+    color: $aqua;
 }
 
 .content a:not(.button):visited {
-    color: $navy;
+    color: $aqua;
 }
 
 .content a:not(.button):hover {
-color: $aqua
+color: $turquoise
 }
 
 
 a {
   transition: color .4s;
-  color: $navy;
+  color: $aqua;
   text-decoration: none;
   font-family: $family-serif;
   font-weight: bold;
 }
-a:visited { color: $navy; }
-a:hover   { color: $aqua; transition: .618s ease-in-out;}
+a:visited { color: $aqua; }
+a:hover   { color: $turquoise; transition: .618s ease-in-out;}
 a:active  {
   transition: .618s ease-in-out;
-  color: $aqua;
+  color: $turquoise;
 }
+
 
 .nav-item a,
 a.nav-item {
-  border-bottom: 1px solid rgba(192, 192, 192, 0);
-  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
-
-  -webkit-transition: border 500ms ease;
-  -moz-transition: border 500ms ease;
-  -ms-transition: border 500ms ease;
-  -o-transition: border 500ms ease;
-  transition: border 500ms ease;
-  color: $black;
+  color: $white;
 }
 
 .nav-item a:hover,
 a.nav-item:hover {
-border-bottom: 1px solid rgba(0, 0, 0, 0);
-  color: $black;
+  color: $turquoise;
 }
 
 .nav-item a.is-active,
 a.nav-item.is-active {
-  color: $black;
+  color: $white;
   text-decoration: none;
 }
 
+.icon-main {
+    width: calc(100vw / 6 - 2rem);
+}
+
 @media screen and (max-width: 768px) {
+
   .nav-menu {
-    background-color: white;
+    background-color: $black;
     box-shadow: 0 4px 7px rgba(10, 10, 10, 0.1);
     left: 0;
     display: none;
@@ -111,48 +111,11 @@ a.nav-item.is-active {
   .nav-menu.is-active {
     display: block;
   }
+
+.icon-main {
+    width: calc(100vw / 4 - 2rem);
 }
-
-h1, h2, h3, h4, h5, h6, .content h1, .content h2, .content h3, .content h4,  .content h5,  .content h6{
-  font-family: $family-serif;
-  font-weight: bold;
-  color: $black;
 }
-
-small {  font-family: $family-serif;
-  font-weight: regular;}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2.25rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-h4 {
-    font-size: 1.25rem;
-}
-
-h5 {
-    font-size: 1rem;
-}
-
-h6, small {
-    font-size: 0.875rem;
-}
-
-p {
-  font-size: 1.25rem;
-  line-height: 2.25rem;
-  font-family: $family-primary;
-  color: $black;
-}
-
 
 .port-card {
     position: relative;
@@ -166,22 +129,9 @@ p {
     width: 100%;
     text-align: center;
     font-size: 18px;
-  -webkit-text-stroke: .618px $black;
-  -webkit-text-fill-color: $white;
 }
 
-.port-image {
-    height: auto;
-    margin: 0;
-}
 
-.hover {
-filter:hue-rotate(0deg);
-    transition: filter .618s ease-in-out;
-}
-.hover:hover {
-filter:hue-rotate(360deg);
-      }
 
 // Sticky Footer
 .Site {
@@ -193,34 +143,3 @@ filter:hue-rotate(360deg);
 .Site-content {
     flex: 1;
 }
-
-
-.gallery {
-    min-height: 100%;
-    font-size: 0;
-    text-align: left
-}
-
-.gallery img {
-    opacity: .8;
-    filter: alpha(opacity=80)
-}
-
-.gallery img:hover {
-    opacity: 1;
-    filter: alpha(opacity=100)
-}
-
-.gallery figcaption {
-    display: none
-}
-
-span[itemprop=copyrightHolder] {
-    color: grey;
-    float: right;
-    font-style: italic
-}
-
-.cent {text-align: center;}
-
-.underline {text-decoration: underline;}
