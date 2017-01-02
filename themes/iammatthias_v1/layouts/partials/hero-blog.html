@@ -10,11 +10,7 @@
             <h2 class="subtitle">
               {{ .Date.Format .Site.Params.dateform }} </br>{{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute to read{{ else }}{{ .ReadingTime }} minutes to read{{ end }}<br />
             </h2>
-  <h2 class="subtitle">
-Tags:  {{ range .Params.tags }}
-<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-{{ end }}
-  </h2>
+
     </div>
   </div>
 </section>

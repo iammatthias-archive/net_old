@@ -3,9 +3,9 @@
 
 name = "Iammatthias_v1"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = ""
 description = ""
-homepage = "http://siteforthistheme.com/"
+homepage = ""
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.17

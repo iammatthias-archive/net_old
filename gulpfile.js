@@ -26,10 +26,12 @@ gulp.task("images", function () {
         .pipe(gulp.dest("themes/iammatthias_v1/static/images"))
         .pipe(hash.manifest("hash.json"))
         .pipe(gulp.dest("data/images"))
+
 })
 
 gulp.task("photos", function () {
     del(["themes/iammatthias_v1/static/photos/**/*"])
+    del(["src/photos/**/thumb/"])
     gulp.src("src/photos/**/*")
         .pipe(gulp.dest("themes/iammatthias_v1/static/photos"))
         .pipe(hash.manifest("hash.json"))
