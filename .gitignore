@@ -7,7 +7,11 @@ public/**/*
 **/.DS_Store
 .Ulysses-Group.plist
 **/.Ulysses-Group.plist
+src/images
+src/photos
 src/images/**/*
 src/photos/**/*
-themes/iammatthias_v1/static/photos/
-themes/iammatthias_v1/static/images/
+themes/iammatthias_v1/static/photos
+themes/iammatthias_v1/static/images
+themes/iammatthias_v1/static/photos/**/*
+themes/iammatthias_v1/static/images/**/*
