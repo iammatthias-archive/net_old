@@ -2,6 +2,7 @@ var gulp         = require("gulp"),
     sass         = require("gulp-sass"),
     autoprefixer = require("gulp-autoprefixer"),
     hash         = require("gulp-hash"),
+    awspublish   = require("gulp-awspublish"),
     del          = require("del")
 
 // Compile SCSS files to CSS
@@ -55,6 +56,9 @@ gulp.task("watch", ["scss", "images", 'photos', "js"], function () {
     gulp.watch("src/photos/**/*", ["photos"])
     gulp.watch("src/js/**/*", ["js"])
 })
+
+
+
 
 
 gulp.task('default', ['scss', 'images', 'photos', 'js', 'watch']);
