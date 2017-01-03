@@ -6,7 +6,7 @@ Author = "Matthias Jordan"
 Description = "I rebuilt my site using Hugo, implemented Gulp as a build tool, and learned a lot in the process."
 date = "2016-12-11T21:47:53-08:00"
 title = "The Rebuild, Part 1"
-image = ""
+image = "/images/blog_bg.jpg"
 tags = ["hugo", "harp", "gulp", "aws"]
 +++
 # I rebuilt my site. Again.
@@ -23,4 +23,4 @@ I always shied away from task runners like Grunt and Gulp. Part of it was that H
 
 ## AWS
 
-~ coming soon ~
+My first website, a horrible Lightroom 2 generated Flash site, was hosted on a horrible shared hosting plan through GoDaddy. I stayed with them for longer than I should, then Digital Ocean caught my eye. They were great, I used them for my first hand-coded site, then a much nicer site built on Ghost. Then I had a brief affair with Github Pages, Surge.Sh, and Netlify. All good. All really good. But my site has a lot of images, and I just did not feel right abusing those fantastic free platforms with all of my stuff. So I decided to put on my big boy boots and dive into AWS. The end goal is a set up where I can push the [entire root directory to one bucket, build through Lambda, then output to a static site bucket](http://bezdelev.com/post/hugo-aws-lambda-static-website/). But I'm having issues with Lambda, so I settled for using Gulp to pipe the build directory to the static bucket. Works nicely. But that will be the first thing I really tackle as an ~~update~~ upgrade for my site.

@@ -5,6 +5,6 @@ resources = []
 slug = ""
 summary = ""
 tags = [""]
-image = ""
+image = "/images/blog_bg.jpg"
 
 +++

@@ -3,6 +3,7 @@
 
 $family-serif: "Abril Fatface", serif;
 $family-primary: "Railway", sans-serif;
+$family-mono: 'Inconsolata', monospace;
 
 $black: #111111;
 $grey-darker: #363636;
@@ -43,8 +44,7 @@ $border-hover:	$grey;
 $text-invert:	findColorInvert($text);
 $text-light:	$grey;
 $text-strong:	$white;
-
 $code:	$red;
 $code-background:	$background;
-$pre:	$text;
+$pre:	$grey-darker;
 $pre-background:	$background;

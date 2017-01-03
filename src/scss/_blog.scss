@@ -1,5 +1,6 @@
 article.blog {
-
+max-width: 61.8%;
+margin: 0 auto;
 /*
 Gutenberg: A Meaningful Web Typography Starter Kit
 Website ....... http://matejlatin.github.io/Gutenberg/
@@ -16,7 +17,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
   html {
     margin: 0;
     width: 100%;
-    max-width: none;
+
   }
 }
 
@@ -31,22 +32,19 @@ html {
   html {
     font-size: 18px;
     font-size: 1.125rem;
+
   }
 }
 
 * {
   line-height: 26px;
   line-height: 1.625rem;
-  margin: 0px 0px 26px;
-  margin: 0rem 0rem 1.625rem;
+
 }
 @media screen and (min-width: 40em) {
   * {
     line-height: 31px;
     line-height: 1.722222222222222rem;
-    margin-bottom: 31px;
-    margin-bottom: 1.722222222222222rem;
-    max-width: 61.8%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -90,20 +88,15 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: $family-mono;
+  background: rgb(247, 247, 247);
 }
 
 code {
-  padding: 26px;
-  padding: 1.625rem;
-  display: block;
+  display: inline-block;
+  line-height: 1.1rem;
 }
-@media screen and (min-width: 40em) {
-  code {
-    padding: 31px;
-    padding: 1.722222222222222rem;
-  }
-}
+
 
 details {
   display: block;

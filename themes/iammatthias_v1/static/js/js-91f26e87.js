@@ -16,3 +16,7 @@ var $grid = $('.grid').imagesLoaded( function() {
     }
   });
 });
+
+$(document).ready(function() {
+  $("img").unveil();
+});
