@@ -30,6 +30,19 @@ font-family: $family-primary;
     font-size: 1.25rem;
 }
 
+
+@media screen and (max-width: 786px) {
+.title {
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+}
+}
+
+
+
 strong { color: $red;
             font-family: $family-serif;
 }
@@ -93,7 +106,7 @@ a.nav-item.is-active {
     width: calc(100vw / 6 - 2rem);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 45rem) {
 
   .nav-menu {
     background-color: $black;
@@ -120,7 +133,8 @@ a.nav-item.is-active {
 .port-card {
     position: relative;
     overflow: hidden;
-    margin-bottom: 0.5rem;
+    height: 25rem;
+
 }
 
 .port-center {
@@ -130,6 +144,8 @@ a.nav-item.is-active {
     text-align: center;
     font-size: 18px;
 }
+
+
 
 
 

@@ -9,8 +9,3 @@ homepage = ""
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.17
-
-
-
-[author]
-  name = "Matthias Jordan"

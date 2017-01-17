@@ -15,7 +15,6 @@ blog = "blog/:slug/"
 
 [params]
 author = "Matthias Jordan"
-# avatar = "" # path to image in static dir e.g img/avatar.png (do not use in the same time as Gravatar)
 dateform = "January 2, 2006"
 dateformfull = "Monday, January 2 2006"
 description = "Photographer / Chef / Digital Marketing + Product"
@@ -27,6 +26,15 @@ lang = "en"
 twitter = "/twitter.com/iammatthias"
 hero = "http://cdn.iammatthias.com/media/bg.jpg"
 faviconfile = "/images/favicon.png"
+
+[params.bio]
+author = "Matthias Jordan"
+avatar = "/images/avatar.jpg"
+bio = "sdfd"
+description = ""
+location = "Santa Monica"
+work = "Surf Air"
+
 
 [taxonomies]
 tag = "tags"

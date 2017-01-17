@@ -1,20 +1,21 @@
 <section class="section">
     <div class="container">
-  <div class="columns is-multiline is-mobile level cent">
+  <div class="columns is-multiline is-mobile cent">
       {{ range first 12 .Data.Pages }} {{ if eq .Type "work" }}
-      <div class="column is-half-desktop is-half-tablet is-12-mobile port-card ">
-          <article>
-              <a href="{{ .Permalink }}">
-                  <img src="{{ .Params.image }}" class="hover" />
+  <a href="{{ .Permalink }}" class="column is-half-desktop is-half-tablet is-12-mobile port-card" style="background: url({{ .Params.image }}) center center;">
+
+          <article >
+
+
                   <div class="port-center ">
-                        <h1 class="stroke">
+                        <h1 class="stroke opacity-full">
                     {{ .Title }}
                         </h1> <h4 class="stroke">{{ .Description }}</h4>
                   </div>
-              </a>
+
           </article>
 
-      </div>
+</a>
       {{ end }} {{ end }}
   </div>
     </div>

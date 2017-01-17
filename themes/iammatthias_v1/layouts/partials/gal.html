@@ -1,22 +1,23 @@
 <section class="section">
     <div class="container">
-        <div class="columns is-multiline is-mobile level cent">
-            {{ range first 12 .Data.Pages }} {{ if eq .Type "gal" }}
-            <div class="column is-half-desktop is-half-tablet is-12-mobile port-card">
-                <article>
-                    <a href="{{ .Permalink }}">
-                        <img src="{{ .Params.cover }}" class="port-image  hover" />
-                        <div class="port-center">
-                            <h1 class="stroke">
-                        {{ .Title }}
-                            </h1> <h4 class="stroke">{{ .Description }}</h4>
-                        </div>
-                    </a>
-                </article>
+  <div class="columns is-multiline is-mobile cent">
+      {{ range first 12 .Data.Pages }} {{ if eq .Type "gal" }}
+  <a href="{{ .Permalink }}" class="column is-half-desktop is-half-tablet is-12-mobile port-card" style="background: url({{ .Params.cover }}) center center;">
 
-            </div>
-            {{ end }} {{ end }}
-        </div>
+          <article >
+
+
+                  <div class="port-center ">
+                        <h1 class="stroke opacity-full">
+                    {{ .Title }}
+                        </h1> <h4 class="stroke">{{ .Description }}</h4>
+                  </div>
+
+          </article>
+
+</a>
+      {{ end }} {{ end }}
+  </div>
     </div>
     </div>
 </section>

@@ -3,7 +3,7 @@ Description = ""
 resources = [
 ]
 slug = ""
-image = "/photos/mobile/coverimage.jpg"
+image = "/images/bg3.png"
 title = "hugo3"
 Author = "Matthias Jordan"
 
