@@ -30,10 +30,9 @@ faviconfile = "/images/favicon.png"
 [params.bio]
 author = "Matthias Jordan"
 avatar = "/images/avatar.jpg"
-bio = "sdfd"
-description = ""
-location = "Santa Monica"
+location = "Santa Monica, CA"
 work = "Surf Air"
+bio = "I'm a California native currently working in the Marketing Department at Surf Air, in sunny Santa Monica."
 
 
 [taxonomies]

@@ -7,14 +7,6 @@ box-shadow: 0px .618px 10px $turquoise;
     margin: 0;
 }
 
-.hover {
-filter: grayscale(0%) saturate(0) brightness(100%);
-    transition: filter .618s ease-in-out;
-}
-.hover:hover {
-filter: grayscale(0%) saturate(1) brightness(200%);
-      }
-
 h1.opacity-full {
 filter: grayscale(0%) opacity(100%);
 }
@@ -60,6 +52,82 @@ filter: grayscale(0%) opacity(100%);
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+
+.nav-item {margin-left: 0;
+  .is-brand {opacity: 0;
+  margin-left: 10px;}
+.icon {    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;}
+}
+
+.nav-item:hover {
+  .is-brand {
+opacity: 1;
+ -webkit-animation: slideInLeft 1s;
+    animation: slideInLeft 1s;}
+
+.icon {  -webkit-transform: rotate(720deg);
+          transform: rotate(1080deg);
+          background: $body-background;
+          z-index: 10;}
+}
+
+@media screen and (max-width: 45rem) {
+.nav-item {margin-left: .618rem;
+  .is-brand {opacity: 0;
+  margin-left: 10px;}
+.icon {    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;}
+}
+
+.nav-item:hover {
+  .is-brand {
+opacity: 1;
+ -webkit-animation: slideInLeft 1s;
+    animation: slideInLeft 1s;}
+
+.icon {  -webkit-transform: rotate(720deg);
+          transform: rotate(720deg);
+          background: $body-background;
+          z-index: 10;}
+}
+}
+
+
+
 
 
 .opacity-full {

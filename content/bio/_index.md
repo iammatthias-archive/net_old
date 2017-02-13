@@ -1,7 +1,7 @@
 +++
 title = "Bio"
 author = "Matthias Jordan"
-Description = ""
+description = ""
 resources = [
 ]
 slug = ""

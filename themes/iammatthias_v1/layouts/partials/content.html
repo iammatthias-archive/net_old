@@ -1,8 +1,8 @@
 <section class="section">
     <div class="container">
   <div class="columns is-multiline is-mobile cent">
-      {{ range first 12 .Data.Pages }} {{ if eq .Type "work" }}
-  <a href="{{ .Permalink }}" class="column is-half-desktop is-half-tablet is-12-mobile port-card" style="background: url({{ .Params.image }}) center center;">
+      {{ range first 12 .Data.Pages }} {{ if eq .Type "gal" }}
+  <a href="{{ .Permalink }}" class="column is-half-desktop is-half-tablet is-12-mobile port-card" style="background: url({{ .Params.cover }}) no-repeat center center;">
 
           <article >
 

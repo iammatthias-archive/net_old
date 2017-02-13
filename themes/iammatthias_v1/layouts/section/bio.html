@@ -6,21 +6,22 @@
 <body  >
 {{ partial "nav" . }}
 <div class="Site animated fadeIn">
-<!-- {{ partial "hero-main" . }} -->
+
 <main class="Site-content">
 <section class="section">
     <div class="container">
 
           <article >
       <h1 >
-        Bio: {{ .Site.Params.bio.author}}
+      {{ .Site.Params.bio.author}}
       </h1>
 <h3 >
   Location: {{ .Site.Params.bio.location}}
 </h3>
-<h3 >
-  Employment: {{ .Site.Params.bio.work}}
-</h3>
+
+<p >
+{{ .Site.Params.bio.bio}}
+</p>
           </article>
 
     </div>

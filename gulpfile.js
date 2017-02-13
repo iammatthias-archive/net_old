@@ -4,7 +4,8 @@ var gulp         = require("gulp"),
     hash         = require("gulp-hash"),
     awspublish   = require("gulp-awspublish"),
     del          = require("del"),
-    parallelize = require("concurrent-transform")
+    parallelize = require("concurrent-transform"),
+    uncss = require("gulp-uncss")
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
@@ -78,6 +79,14 @@ gulp.task('publish', function() {
       states: ['create', 'update', 'delete'] }));
 });
 
+
+gulp.task('css', function () {
+    return gulp.src('./public/base-*.css')
+        .pipe(uncss({
+            html: ['./public/index.html', './public/bio/**/*.html', './public/blog/**/*.html', './public/gal/**/*.html', './public/work/**/*.html']
+        }))
+        .pipe(gulp.dest('./out'));
+});
 
 
 

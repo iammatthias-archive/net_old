@@ -31,7 +31,7 @@ font-family: $family-primary;
 }
 
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 45rem) {
 .title {
     font-size: 4rem;
 }
@@ -102,9 +102,6 @@ a.nav-item.is-active {
   text-decoration: none;
 }
 
-.icon-main {
-    width: calc(100vw / 6 - 2rem);
-}
 
 @media screen and (max-width: 45rem) {
 
@@ -119,15 +116,12 @@ a.nav-item.is-active {
   }
   .nav-menu .nav-item {
     border-top: 1px solid rgba(219, 219, 219, 0.5);
-    padding: 4rem;
+    padding: 2.5em;
   }
   .nav-menu.is-active {
     display: block;
   }
 
-.icon-main {
-    width: calc(100vw / 4 - 2rem);
-}
 }
 
 .port-card {
