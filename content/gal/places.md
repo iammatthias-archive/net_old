@@ -1,309 +1,309 @@
 +++
 title = "Places"
 date = "2016-12-30T19:28:38-08:00"
-
-cover = "/photos/places/coverimage.jpg"
+filter = "places"
+cover = "/assets/photos/places/coverimage.jpg"
 +++
 
 {{< wrap >}}
-{{< photo href="/photos/places/large/places-1.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-1.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-1.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-1_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-1_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-1_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-10.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-10.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-10.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-10_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-10_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-10_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-100.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-100.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-100.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-100_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-100_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-100_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-101.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-101.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-101.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-101_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-101_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-101_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-102.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-102.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-102.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-102_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-102_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-102_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-103.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-103.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-103.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-103_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-103_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-103_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-104.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-104.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-104.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-104_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-104_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-104_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-105.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-105.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-105.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-105_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-105_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-105_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-106.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-106.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-106.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-106_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-106_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-106_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-107.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-107.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-107.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-107_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-107_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-107_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-108.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-108.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-108.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-108_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-108_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-108_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-109.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-109.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-109.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-109_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-109_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-109_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-11.jpg_1050x1600.jpg" largeDim="1050x1600" smallUrl="/photos/places/small/places-11.jpg_525x800.jpg" smallDim="525x800" alt="None" thumbSize="168x256" thumbUrl="/photos/places/thumb/places-11.jpg_168x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-11_1050x1600.jpg" largeDim="1050x1600" smallUrl="/assets/photos/places/small/places-11_525x800.jpg" smallDim="525x800" alt="None" thumbSize="168x256" thumbUrl="/assets/photos/places/thumb/places-11_168x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-110.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-110.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-110.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-110_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-110_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-110_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-111.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-111.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-111.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-111_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-111_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-111_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-112.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-112.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-112.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-112_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-112_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-112_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-113.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-113.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-113.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-113_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-113_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-113_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-114.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-114.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-114.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-114_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-114_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-114_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-115.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-115.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-115.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-115_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-115_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-115_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-116.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-116.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-116.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-116_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-116_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-116_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-117.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-117.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-117.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-117_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-117_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-117_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-118.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-118.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-118.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-118_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-118_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-118_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-119.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-119.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-119.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-119_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-119_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-119_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-12.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-12.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-12.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-12_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-12_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-12_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-120.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-120.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-120.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-120_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-120_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-120_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-121.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-121.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-121.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-121_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-121_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-121_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-122.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-122.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-122.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-122_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-122_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-122_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-123.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-123.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-123.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-123_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-123_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-123_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-124.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-124.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-124.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-124_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-124_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-124_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-125.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-125.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-125.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-125_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-125_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-125_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-126.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-126.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-126.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-126_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-126_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-126_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-127.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-127.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-127.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-127_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-127_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-127_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-128.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-128.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-128.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-128_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-128_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-128_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-129.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-129.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-129.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-129_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-129_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-129_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-13.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-13.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-13.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-13_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-13_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-13_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-130.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-130.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-130.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-130_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-130_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-130_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-131.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-131.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-131.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-131_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-131_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-131_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-132.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-132.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-132.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-132_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-132_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-132_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-133.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-133.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-133.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-133_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-133_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-133_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-134.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-134.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-134.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-134_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-134_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-134_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-135.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-135.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-135.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-135_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-135_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-135_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-136.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-136.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-136.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-136_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-136_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-136_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-137.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-137.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-137.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-137_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-137_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-137_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-138.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-138.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-138.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-138_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-138_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-138_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-139.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-139.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-139.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-139_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-139_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-139_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-14.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-14.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-14.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-14_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-14_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-14_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-140.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-140.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-140.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-140_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-140_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-140_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-141.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-141.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-141.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-141_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-141_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-141_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-142.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-142.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-142.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-142_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-142_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-142_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-143.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-143.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-143.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-143_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-143_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-143_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-144.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-144.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-144.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-144_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-144_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-144_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-145.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-145.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-145.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-145_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-145_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-145_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-146.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-146.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-146.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-146_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-146_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-146_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-147.jpg_1600x1200.jpg" largeDim="1600x1200" smallUrl="/photos/places/small/places-147.jpg_800x600.jpg" smallDim="800x600" alt="None" thumbSize="256x192" thumbUrl="/photos/places/thumb/places-147.jpg_256x192.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-147_1600x1200.jpg" largeDim="1600x1200" smallUrl="/assets/photos/places/small/places-147_800x600.jpg" smallDim="800x600" alt="None" thumbSize="256x192" thumbUrl="/assets/photos/places/thumb/places-147_256x192.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-148.jpg_1200x1600.jpg" largeDim="1200x1600" smallUrl="/photos/places/small/places-148.jpg_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/photos/places/thumb/places-148.jpg_192x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-148_1200x1600.jpg" largeDim="1200x1600" smallUrl="/assets/photos/places/small/places-148_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/assets/photos/places/thumb/places-148_192x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-149.jpg_1200x1600.jpg" largeDim="1200x1600" smallUrl="/photos/places/small/places-149.jpg_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/photos/places/thumb/places-149.jpg_192x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-149_1200x1600.jpg" largeDim="1200x1600" smallUrl="/assets/photos/places/small/places-149_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/assets/photos/places/thumb/places-149_192x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-15.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-15.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-15.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-15_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-15_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-15_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-150.jpg_1200x1600.jpg" largeDim="1200x1600" smallUrl="/photos/places/small/places-150.jpg_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/photos/places/thumb/places-150.jpg_192x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-150_1200x1600.jpg" largeDim="1200x1600" smallUrl="/assets/photos/places/small/places-150_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/assets/photos/places/thumb/places-150_192x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-151.jpg_1600x1200.jpg" largeDim="1600x1200" smallUrl="/photos/places/small/places-151.jpg_800x600.jpg" smallDim="800x600" alt="None" thumbSize="256x192" thumbUrl="/photos/places/thumb/places-151.jpg_256x192.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-151_1600x1200.jpg" largeDim="1600x1200" smallUrl="/assets/photos/places/small/places-151_800x600.jpg" smallDim="800x600" alt="None" thumbSize="256x192" thumbUrl="/assets/photos/places/thumb/places-151_256x192.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-152.jpg_1600x1200.jpg" largeDim="1600x1200" smallUrl="/photos/places/small/places-152.jpg_800x600.jpg" smallDim="800x600" alt="None" thumbSize="256x192" thumbUrl="/photos/places/thumb/places-152.jpg_256x192.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-152_1600x1200.jpg" largeDim="1600x1200" smallUrl="/assets/photos/places/small/places-152_800x600.jpg" smallDim="800x600" alt="None" thumbSize="256x192" thumbUrl="/assets/photos/places/thumb/places-152_256x192.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-153.jpg_1600x642.jpg" largeDim="1600x642" smallUrl="/photos/places/small/places-153.jpg_800x321.jpg" smallDim="800x321" alt="None" thumbSize="256x102" thumbUrl="/photos/places/thumb/places-153.jpg_256x102.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-153_1600x642.jpg" largeDim="1600x642" smallUrl="/assets/photos/places/small/places-153_800x321.jpg" smallDim="800x321" alt="None" thumbSize="256x102" thumbUrl="/assets/photos/places/thumb/places-153_256x102.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-154.jpg_1200x1600.jpg" largeDim="1200x1600" smallUrl="/photos/places/small/places-154.jpg_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/photos/places/thumb/places-154.jpg_192x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-154_1200x1600.jpg" largeDim="1200x1600" smallUrl="/assets/photos/places/small/places-154_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/assets/photos/places/thumb/places-154_192x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-155.jpg_1200x1600.jpg" largeDim="1200x1600" smallUrl="/photos/places/small/places-155.jpg_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/photos/places/thumb/places-155.jpg_192x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-155_1200x1600.jpg" largeDim="1200x1600" smallUrl="/assets/photos/places/small/places-155_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/assets/photos/places/thumb/places-155_192x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-156.jpg_1200x1600.jpg" largeDim="1200x1600" smallUrl="/photos/places/small/places-156.jpg_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/photos/places/thumb/places-156.jpg_192x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-156_1200x1600.jpg" largeDim="1200x1600" smallUrl="/assets/photos/places/small/places-156_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/assets/photos/places/thumb/places-156_192x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-157.jpg_1200x1600.jpg" largeDim="1200x1600" smallUrl="/photos/places/small/places-157.jpg_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/photos/places/thumb/places-157.jpg_192x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-157_1200x1600.jpg" largeDim="1200x1600" smallUrl="/assets/photos/places/small/places-157_600x800.jpg" smallDim="600x800" alt="None" thumbSize="192x256" thumbUrl="/assets/photos/places/thumb/places-157_192x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-158.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-158.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-158.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-158_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-158_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-158_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-159.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-159.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-159.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-159_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-159_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-159_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-16.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-16.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-16.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-16_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-16_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-16_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-160.jpg_1600x761.jpg" largeDim="1600x761" smallUrl="/photos/places/small/places-160.jpg_800x380.jpg" smallDim="800x380" alt="None" thumbSize="256x121" thumbUrl="/photos/places/thumb/places-160.jpg_256x121.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-160_1600x761.jpg" largeDim="1600x761" smallUrl="/assets/photos/places/small/places-160_800x380.jpg" smallDim="800x380" alt="None" thumbSize="256x121" thumbUrl="/assets/photos/places/thumb/places-160_256x121.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-161.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-161.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-161.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-161_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-161_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-161_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-162.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-162.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-162.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-162_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-162_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-162_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-163.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-163.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-163.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-163_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-163_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-163_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-164.jpg_1600x952.jpg" largeDim="1600x952" smallUrl="/photos/places/small/places-164.jpg_800x476.jpg" smallDim="800x476" alt="None" thumbSize="256x152" thumbUrl="/photos/places/thumb/places-164.jpg_256x152.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-164_1600x952.jpg" largeDim="1600x952" smallUrl="/assets/photos/places/small/places-164_800x476.jpg" smallDim="800x476" alt="None" thumbSize="256x152" thumbUrl="/assets/photos/places/thumb/places-164_256x152.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-17.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-17.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-17.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-17_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-17_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-17_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-18.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-18.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-18.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-18_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-18_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-18_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-19.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-19.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-19.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-19_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-19_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-19_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-2.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-2.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-2.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-2_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-2_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-2_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-20.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-20.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-20.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-20_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-20_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-20_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-21.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-21.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-21.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-21_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-21_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-21_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-22.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-22.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-22.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-22_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-22_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-22_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-23.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-23.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-23.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-23_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-23_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-23_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-24.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-24.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-24.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-24_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-24_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-24_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-25.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-25.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-25.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-25_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-25_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-25_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-26.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-26.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-26.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-26_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-26_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-26_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-27.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-27.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-27.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-27_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-27_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-27_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-28.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-28.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-28.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-28_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-28_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-28_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-29.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-29.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-29.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-29_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-29_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-29_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-3.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-3.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-3.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-3_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-3_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-3_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-30.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-30.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-30.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-30_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-30_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-30_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-31.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-31.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-31.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-31_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-31_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-31_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-32.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-32.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-32.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-32_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-32_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-32_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-33.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-33.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-33.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-33_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-33_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-33_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-34.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-34.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-34.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-34_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-34_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-34_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-35.jpg_1600x1061.jpg" largeDim="1600x1061" smallUrl="/photos/places/small/places-35.jpg_800x530.jpg" smallDim="800x530" alt="None" thumbSize="256x169" thumbUrl="/photos/places/thumb/places-35.jpg_256x169.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-35_1600x1061.jpg" largeDim="1600x1061" smallUrl="/assets/photos/places/small/places-35_800x530.jpg" smallDim="800x530" alt="None" thumbSize="256x169" thumbUrl="/assets/photos/places/thumb/places-35_256x169.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-36.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-36.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-36.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-36_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-36_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-36_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-37.jpg_1600x846.jpg" largeDim="1600x846" smallUrl="/photos/places/small/places-37.jpg_800x423.jpg" smallDim="800x423" alt="None" thumbSize="256x135" thumbUrl="/photos/places/thumb/places-37.jpg_256x135.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-37_1600x846.jpg" largeDim="1600x846" smallUrl="/assets/photos/places/small/places-37_800x423.jpg" smallDim="800x423" alt="None" thumbSize="256x135" thumbUrl="/assets/photos/places/thumb/places-37_256x135.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-38.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-38.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-38.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-38_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-38_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-38_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-39.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-39.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-39.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-39_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-39_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-39_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-4.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-4.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-4.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-4_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-4_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-4_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-40.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-40.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-40.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-40_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-40_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-40_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-41.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-41.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-41.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-41_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-41_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-41_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-42.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-42.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-42.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-42_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-42_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-42_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-43.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-43.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-43.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-43_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-43_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-43_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-44.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-44.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-44.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-44_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-44_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-44_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-45.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-45.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-45.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-45_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-45_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-45_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-46.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-46.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-46.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-46_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-46_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-46_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-47.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-47.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-47.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-47_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-47_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-47_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-48.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-48.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-48.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-48_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-48_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-48_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-49.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-49.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-49.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-49_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-49_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-49_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-5.jpg_1600x385.jpg" largeDim="1600x385" smallUrl="/photos/places/small/places-5.jpg_800x192.jpg" smallDim="800x192" alt="None" thumbSize="256x61" thumbUrl="/photos/places/thumb/places-5.jpg_256x61.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-5_1600x385.jpg" largeDim="1600x385" smallUrl="/assets/photos/places/small/places-5_800x192.jpg" smallDim="800x192" alt="None" thumbSize="256x61" thumbUrl="/assets/photos/places/thumb/places-5_256x61.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-50.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-50.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-50.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-50_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-50_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-50_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-51.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-51.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-51.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-51_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-51_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-51_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-52.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-52.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-52.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-52_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-52_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-52_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-53.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-53.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-53.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-53_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-53_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-53_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-54.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-54.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-54.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-54_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-54_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-54_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-55.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-55.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-55.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-55_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-55_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-55_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-56.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-56.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-56.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-56_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-56_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-56_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-57.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-57.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-57.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-57_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-57_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-57_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-58.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-58.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-58.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-58_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-58_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-58_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-6.jpg_1600x900.jpg" largeDim="1600x900" smallUrl="/photos/places/small/places-6.jpg_800x450.jpg" smallDim="800x450" alt="None" thumbSize="256x144" thumbUrl="/photos/places/thumb/places-6.jpg_256x144.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-6_1600x900.jpg" largeDim="1600x900" smallUrl="/assets/photos/places/small/places-6_800x450.jpg" smallDim="800x450" alt="None" thumbSize="256x144" thumbUrl="/assets/photos/places/thumb/places-6_256x144.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-7.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-7.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-7.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-7_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-7_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-7_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-73.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-73.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-73.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-73_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-73_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-73_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-74.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-74.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-74.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-74_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-74_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-74_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-75.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-75.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-75.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-75_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-75_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-75_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-76.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-76.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-76.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-76_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-76_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-76_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-77.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-77.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-77.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-77_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-77_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-77_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-78.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-78.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-78.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-78_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-78_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-78_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-79.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-79.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-79.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-79_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-79_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-79_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-8.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-8.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-8.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-8_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-8_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-8_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-80.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-80.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-80.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-80_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-80_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-80_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-81.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-81.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-81.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-81_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-81_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-81_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-82.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-82.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-82.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-82_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-82_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-82_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-83.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-83.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-83.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-83_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-83_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-83_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-84.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-84.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-84.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-84_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-84_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-84_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-85.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-85.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-85.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-85_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-85_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-85_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-86.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-86.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-86.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-86_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-86_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-86_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-87.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-87.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-87.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-87_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-87_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-87_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-88.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-88.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-88.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-88_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-88_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-88_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-89.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-89.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-89.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-89_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-89_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-89_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-9.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-9.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-9.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-9_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-9_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-9_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-90.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-90.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-90.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-90_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-90_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-90_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-91.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-91.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-91.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-91_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-91_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-91_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-92.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-92.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-92.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-92_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-92_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-92_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-93.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-93.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-93.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-93_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-93_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-93_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-94.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-94.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-94.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-94_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-94_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-94_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-95.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-95.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-95.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-95_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-95_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-95_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-96.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-96.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-96.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-96_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-96_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-96_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-97.jpg_1066x1600.jpg" largeDim="1066x1600" smallUrl="/photos/places/small/places-97.jpg_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/photos/places/thumb/places-97.jpg_170x256.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-97_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/places/small/places-97_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/places/thumb/places-97_170x256.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-98.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-98.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-98.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-98_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-98_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-98_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/photos/places/large/places-99.jpg_1600x1066.jpg" largeDim="1600x1066" smallUrl="/photos/places/small/places-99.jpg_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/photos/places/thumb/places-99.jpg_256x170.jpg" caption="" copyright="None" >}}
+{{< photo href="/assets/photos/places/large/places-99_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/places/small/places-99_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/places/thumb/places-99_256x170.jpg" caption="" copyright="" >}}
 
 {{< /wrap >}}

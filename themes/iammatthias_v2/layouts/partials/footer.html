@@ -1,0 +1,29 @@
+<footer>
+    <section>
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="start-xs box ">
+                    <h4>Colophon —</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="start-xs box">
+                    {{ partial "menu" . }}
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="start-xs box">
+
+                    <p>{{ .Site.Params.author }}</p>
+                    <p>{{ .Site.Params.description }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+{{ partial "scripts" . }}

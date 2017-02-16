@@ -1,0 +1,101 @@
+figure {
+    margin: 0;
+}
+
+@media only screen and (min-width: 20em) {
+    .grid {
+        margin: 0 auto;
+    }
+    /* ---- .grid-item ---- */
+    .grid-item,
+    .grid-sizer {
+        width: 33.333%;
+    }
+
+    .grid-item {
+        float: left;
+    }
+
+    .grid-item img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 26em) {
+    .grid {
+        margin: 0 auto;
+    }
+    /* ---- .grid-item ---- */
+    .grid-item,
+    .grid-sizer {
+        width: 25%;
+    }
+
+    .grid-item {
+        float: left;
+    }
+
+    .grid-item img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .grid {
+        margin: 0 auto;
+    }
+    /* ---- .grid-item ---- */
+    .grid-item,
+    .grid-sizer {
+        width: 20%;
+    }
+
+    .grid-item {
+        float: left;
+    }
+
+    .grid-item img {
+        display: block;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 64em) {
+    .grid {
+        margin: 0 auto;
+    }
+    /* ---- .grid-item ---- */
+    .grid-item,
+    .grid-sizer {
+        width: 10%;
+    }
+
+    .grid-item {
+        float: left;
+    }
+
+    .grid-item img {
+        display: block;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 75em) {
+    .grid {
+        margin: 0 auto;
+    }
+    /* ---- .grid-item ---- */
+    .grid-item,
+    .grid-sizer {
+        width: 10%;
+    }
+
+    .grid-item {
+        float: left;
+    }
+
+    .grid-item img {
+        display: block;
+        max-width: 100%;
+    }
+}

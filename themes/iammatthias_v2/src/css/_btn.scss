@@ -1,0 +1,28 @@
+button, button:link, button:visited {
+  border-radius: 0.25em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $black;
+  color: $black;
+  background-color: $purewhite;
+  display: inline-block;
+  font-family: avenir, helvetica, roboto, arial, sans-serif;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color 0.4s, background-color 0.4s, border 0.4s;
+  transition: color 0.4s, background-color 0.4s, border 0.4s; }
+
+button:hover, button:focus {
+  color: $danger;
+  border: 1px solid $danger;
+  -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+  transition: background-color 0.3s, color 0.3s, border 0.3s; }
+
+button:active {
+  color: $danger;
+  border: 1px solid $danger;
+  -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
+  transition: background-color 0.3s, color 0.3s, border 0.3s; }

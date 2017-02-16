@@ -1,0 +1,59 @@
+body {
+    background: $white;
+    text-align: center;
+}
+
+section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 48em) {
+section {
+    width: 85%;
+    margin: 0 auto;
+}
+  }
+
+@media only screen and (min-width: 65em) {
+section {
+    width: 75%;
+    margin: 0 auto;
+}
+  }
+
+@media only screen and (min-width: 75em) {
+section {
+    width: 61.8%;
+    margin: 0 auto;
+}
+  }
+
+@import "nav";
+@import "footer";
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+}
+
+.logo {
+width: 2rem;
+}

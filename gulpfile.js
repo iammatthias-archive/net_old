@@ -4,59 +4,51 @@ var gulp         = require("gulp"),
     hash         = require("gulp-hash"),
     awspublish   = require("gulp-awspublish"),
     del          = require("del"),
-    parallelize = require("concurrent-transform"),
-    uncss = require("gulp-uncss")
+    parallelize = require("concurrent-transform")
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
-    del(["themes/iammatthias_v1/static/css/**/*"])
-    gulp.src("src/scss/**/*.scss")
+    del(["themes/iammatthias_v2/static/css/**/*"])
+    gulp.src("themes/iammatthias_v2/src/css/**/*.scss")
         .pipe(sass({outputStyle : "compressed"}))
         .pipe(autoprefixer({browsers : ["last 20 versions"]}))
         .pipe(hash())
-        .pipe(gulp.dest("themes/iammatthias_v1/static/css"))
+        .pipe(gulp.dest("themes/iammatthias_v2/static/css"))
         //Create a hash map
         .pipe(hash.manifest("hash.json"))
         //Put the map in the data directory
-        .pipe(gulp.dest("data/css"))
-})
-
-// Hash images
-gulp.task("images", function () {
-    del(["themes/iammatthias_v1/static/images/**/*"])
-    gulp.src("src/images/**/*")
-
-        .pipe(gulp.dest("themes/iammatthias_v1/static/images"))
-        .pipe(hash.manifest("hash.json"))
-        .pipe(gulp.dest("data/images"))
-
-})
-
-gulp.task("photos", function () {
-    del(["themes/iammatthias_v1/static/photos/**/*"])
-    del(["src/photos/**/thumb/"])
-    gulp.src("src/photos/**/*")
-        .pipe(gulp.dest("themes/iammatthias_v1/static/photos"))
-        .pipe(hash.manifest("hash.json"))
-        .pipe(gulp.dest("data/photos"))
+        .pipe(gulp.dest("themes/iammatthias_v2/data/css"))
 })
 
 // Hash javascript
 gulp.task("js", function () {
-    del(["themes/iammatthias_v1/static/js/**/*"])
-    gulp.src("src/js/**/*")
+    del(["themes/iammatthias_v2/static/js/**/*"])
+    gulp.src("themes/iammatthias_v2/src/js/**/*")
         .pipe(hash())
-        .pipe(gulp.dest("themes/iammatthias_v1/static/js"))
+        .pipe(gulp.dest("themes/iammatthias_v2/static/js"))
         .pipe(hash.manifest("hash.json"))
-        .pipe(gulp.dest("data/js"))
+        .pipe(gulp.dest("themes/iammatthias_v2/data/js"))
+})
+
+// Hash assets
+gulp.task("assets", function () {
+    del(["themes/iammatthias_v2/static/assets/**/*"])
+    gulp.src(['themes/iammatthias_v2/src/assets/**/*', '!themes/iammatthias_v2/src/assets/photos/{,/**/*}', '!themes/iammatthias_v2/src/assets/{default-skin.png,default-skin.svg,preloader.gif,cross.png}'])
+        .pipe(hash())
+        .pipe(gulp.dest("themes/iammatthias_v2/static/assets"))
+        .pipe(hash.manifest("hash.json"))
+        .pipe(gulp.dest("themes/iammatthias_v2/data/assets"))
+    gulp.src(['themes/iammatthias_v2/src/assets/photos/{,/**/*}'])
+        .pipe(gulp.dest('themes/iammatthias_v2/static/assets/photos'))
+    gulp.src(['themes/iammatthias_v2/src/assets/{default-skin.png,default-skin.svg,preloader.gif,cross.png}'])
+        .pipe(gulp.dest('themes/iammatthias_v2/static/assets'))
 })
 
 // Watch asset folder for changes
-gulp.task("watch", ["scss", "images", 'photos', "js"], function () {
-    gulp.watch("src/scss/**/*", ["scss"])
-    gulp.watch("src/images/**/*", ["images"])
-    gulp.watch("src/photos/**/*", ["photos"])
-    gulp.watch("src/js/**/*", ["js"])
+gulp.task("watch", ["scss", "js", "assets"], function () {
+    gulp.watch("themes/iammatthias_v2/src/css/**/*", ["scss"])
+    gulp.watch("themes/iammatthias_v2/src/js/**/*", ["js"])
+    gulp.watch("themes/iammatthias_v2/src/assets/**/*", ["assets"])
 })
 
 
@@ -90,6 +82,6 @@ gulp.task('css', function () {
 
 
 
-gulp.task('default', ['scss', 'images', 'photos', 'js', 'watch']);
+gulp.task('default', ['scss', 'js', "assets", 'watch']);
 
-gulp.task('build', ['scss', 'images', 'photos', 'js']);
+gulp.task('build', ['scss', 'js', "assets"]);
