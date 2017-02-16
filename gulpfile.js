@@ -72,16 +72,6 @@ gulp.task('publish', function() {
 });
 
 
-gulp.task('css', function () {
-    return gulp.src('./public/base-*.css')
-        .pipe(uncss({
-            html: ['./public/index.html', './public/bio/**/*.html', './public/blog/**/*.html', './public/gal/**/*.html', './public/work/**/*.html']
-        }))
-        .pipe(gulp.dest('./out'));
-});
-
-
-
 gulp.task('default', ['scss', 'js', "assets", 'watch']);
 
 gulp.task('build', ['scss', 'js', "assets"]);
