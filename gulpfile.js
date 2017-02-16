@@ -33,15 +33,8 @@ gulp.task("js", function () {
 // Hash assets
 gulp.task("assets", function () {
     del(["themes/iammatthias_v2/static/assets/**/*"])
-    gulp.src(['themes/iammatthias_v2/src/assets/**/*', '!themes/iammatthias_v2/src/assets/photos/{,/**/*}', '!themes/iammatthias_v2/src/assets/{default-skin.png,default-skin.svg,preloader.gif,cross.png}'])
-        .pipe(hash())
+    gulp.src(['themes/iammatthias_v2/src/assets/**/*'])
         .pipe(gulp.dest("themes/iammatthias_v2/static/assets"))
-        .pipe(hash.manifest("hash.json"))
-        .pipe(gulp.dest("themes/iammatthias_v2/data/assets"))
-    gulp.src(['themes/iammatthias_v2/src/assets/photos/{,/**/*}'])
-        .pipe(gulp.dest('themes/iammatthias_v2/static/assets/photos'))
-    gulp.src(['themes/iammatthias_v2/src/assets/{default-skin.png,default-skin.svg,preloader.gif,cross.png}'])
-        .pipe(gulp.dest('themes/iammatthias_v2/static/assets'))
 })
 
 // Watch asset folder for changes
@@ -67,6 +60,7 @@ gulp.task('publish', function() {
     .pipe(awspublish.gzip())
     .pipe(parallelize(publisher.publish(headers), 250))
     .pipe(publisher.cache())
+    .pipe(publisher.sync())
     .pipe(awspublish.reporter({
       states: ['create', 'update', 'delete'] }));
 });
