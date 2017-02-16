@@ -8,7 +8,7 @@
   <main class="container Site-content">
 <h1 class="text-primary">{{ .Title }}</h1>
 <h5 class="text-primary">{{ partial "gal_filter" . }}</h5>
-<div class="section grid gallery" itemscope itemtype="https://schema.org/ImageGallery">
+<div class="grid gallery" itemscope itemtype="https://schema.org/ImageGallery">
 <div class="grid-sizer"></div>
     {{ range where .Site.Pages "Type" "gal" }}
    {{ .Content }}
