@@ -1,6 +1,6 @@
 body {
     background: $white;
-    text-align: center;
+
 }
 
 section {
@@ -34,7 +34,7 @@ section {
 
 .Site {
     display: flex;
-    min-height: 100vh;
+    min-height: 110vh;
     flex-direction: column;
 }
 

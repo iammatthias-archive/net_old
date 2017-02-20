@@ -1,6 +1,6 @@
 <figure class="grid-item {{ .Page.Params.filter }}" itemprop="associatedMedia" itemscope
 itemtype="https://schema.org/ImageObject">
   <a href="{{ .Get "href"}}" itemprop="contentUrl" data-size="{{ .Get "largeDim"}}" data-medium-url="{{ .Get "smallUrl" }}" data-medium-size="{{ .Get "smallDim" }}">
-    <img alt="{{ .Get "alt"}}" data-size="{{ .Get "smallDim"}}" itemprop="thumbnail" src="{{ .Get "thumbUrl"}}" data-src="{{ .Get "smallUrl"}}">
+    <img alt="{{ .Get "alt"}}" data-size="{{ .Get "smallDim"}}" itemprop="thumbnail" src="{{ .Get "thumbUrl"}}.svg" data-src="{{ .Get "smallUrl"}}">
   </a>
 </figure>
