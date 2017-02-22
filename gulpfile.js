@@ -4,7 +4,17 @@ var gulp         = require("gulp"),
     hash         = require("gulp-hash"),
     awspublish   = require("gulp-awspublish"),
     del          = require("del"),
-    parallelize = require("concurrent-transform")
+    parallelize = require("concurrent-transform"),
+    plumber = require('gulp-plumber');
+
+
+// error function for plumber
+var onError = function (err) {
+  gutil.beep();
+  console.log(err);
+  this.emit('end');
+};
+
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
@@ -32,7 +42,7 @@ gulp.task("js", function () {
 
 // Hash assets
 gulp.task("assets", function () {
-    del(["themes/iammatthias_v2/static/assets/**/*"])
+    del(["themes/iammatthias_v2/static/assets/"])
     gulp.src(['themes/iammatthias_v2/src/assets/**/*'])
         .pipe(gulp.dest("themes/iammatthias_v2/static/assets"))
 })

@@ -9,7 +9,7 @@ figure {
     /* ---- .grid-item ---- */
     .grid-item,
     .grid-sizer {
-        width: 33.333%;
+        width: 50%;
     }
 
     .grid-item {
@@ -29,7 +29,7 @@ figure {
     /* ---- .grid-item ---- */
     .grid-item,
     .grid-sizer {
-        width: 25%;
+        width: 33.33%;
     }
 
     .grid-item {
@@ -49,7 +49,7 @@ figure {
     /* ---- .grid-item ---- */
     .grid-item,
     .grid-sizer {
-        width: 20%;
+        width: 25%;
     }
 
     .grid-item {
@@ -68,26 +68,7 @@ figure {
     /* ---- .grid-item ---- */
     .grid-item,
     .grid-sizer {
-        width: 10%;
-    }
-
-    .grid-item {
-        float: left;
-    }
-
-    .grid-item img {
-        display: block;
-        max-width: 100%;
-    }
-}
-@media only screen and (min-width: 75em) {
-    .grid {
-        margin: 0 auto;
-    }
-    /* ---- .grid-item ---- */
-    .grid-item,
-    .grid-sizer {
-        width: 10%;
+        width: 20%;
     }
 
     .grid-item {

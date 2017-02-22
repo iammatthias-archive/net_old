@@ -1,3 +1,16 @@
+<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAaz7INll4YQzrKWnZijQ_B88DYLGaOGOA",
+    authDomain: "iammatthias-159406.firebaseapp.com",
+    databaseURL: "https://iammatthias-159406.firebaseio.com",
+    storageBucket: "iammatthias-159406.appspot.com",
+    messagingSenderId: "883081079841"
+  };
+  firebase.initializeApp(config);
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="/js/{{ index .Site.Data.js.hash "imagesloaded.js" }}"></script>
 <script src="/js/{{ index .Site.Data.js.hash "isotope.js" }}"></script>

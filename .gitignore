@@ -16,3 +16,5 @@
 /themes/iammatthias_v2/static/assets/**/*
 /themes/iammatthias_v2/src/assets/**/*
 .awspublish-iammatthias.com
+.firebaserc
+firebase.json
