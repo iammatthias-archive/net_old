@@ -1,0 +1,23 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/iammatthias/.nvm/versions/node/v4.2.4/bin/node /Users/iammatthias/.nvm/versions/node/v4.2.4/bin/firebase deploy
+[debug] CLI Version:  3.3.0
+[debug] Platform:     darwin
+[debug] Node Version: v4.2.4
+[debug] Time:         Wed Feb 22 2017 23:04:36 GMT-0800 (PST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/iammatthias-159406  
+ Wed Feb 22 2017 23:04:36 GMT-0800 (PST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/iammatthias-159406/tokens  
+ Wed Feb 22 2017 23:04:38 GMT-0800 (PST)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'iammatthias-159406'...
+[info] 
+[info] i  deploying hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/iammatthias-159406/uploads/-KddmIe1MgowBhSYFAwR?fileCount=1088&message=  
+ Wed Feb 22 2017 23:04:47 GMT-0800 (PST)

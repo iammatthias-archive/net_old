@@ -1,7 +1,7 @@
 +++
 title = "Mobile"
 date = "2016-12-26T10:57:38-08:00"
-filter = "mobile"
+filter = """mobile"""
 cover = "/assets/photos/mobile/coverimage.jpg"
 +++
 

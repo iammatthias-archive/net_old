@@ -8,26 +8,66 @@ section {
     margin: 0 auto;
 }
 
+
+@media only screen and (min-width: 20em) {
+  section {
+      width: 85%;
+      margin: 0 auto;
+  }
+  .fill {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+  }
+
+  .fill img {
+      flex-shrink: 0;
+      min-width: 100%;
+      max-height: 550px;
+  }
+}
+
 @media only screen and (min-width: 48em) {
-section {
-    width: 85%;
-    margin: 0 auto;
-}
+  section {
+      width: 75%;
+      margin: 0 auto;
   }
 
-@media only screen and (min-width: 65em) {
-section {
-    width: 75%;
-    margin: 0 auto;
-}
+  .fill {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
   }
 
-@media only screen and (min-width: 75em) {
-section {
-    width: 61.8%;
-    margin: 0 auto;
-}
+  .fill img {
+      flex-shrink: 0;
+      min-width: 100%;
+      max-height: 650px;
   }
+}
+@media only screen and (min-width: 64em) {
+  section {
+      width: 61.8%;
+      margin: 0 auto;
+  }
+
+  .fill {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+  }
+
+  .fill img {
+      flex-shrink: 0;
+      min-width: 100%;
+      max-height: 750px;
+  }
+}
+
+
 
 @import "nav";
 @import "footer";
@@ -40,18 +80,6 @@ section {
 
 .Site-content {
     flex: 1;
-}
-
-.fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
 }
 
 .logo {

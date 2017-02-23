@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head" . }}
+
+<body class="Site">
+    {{ partial "nav" . }}
+    <main class="Site-content">
+
+        <section>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <video width="100%" autoplay loop muted playsinline>
+  <source type="video/mp4" src="/assets/iam_min.mp4">
+</video>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box links">
+                        <h1>{{ .Params.Author }}</h1>
+                        <h4>{{ .Params.Job }}</h4>
+                        <h4>{{ .Params.Local }}</h4>
+                        <ul>
+                            <li><a href="#">C Breezy</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="box">
+                        <p>{{ .Params.Description1 }}</p>
+                        <p>{{ .Params.Description2 }}</p>
+                        <p>{{ .Params.Description3 }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    {{ partial "footer" . }}
+</body>
+
+</html>

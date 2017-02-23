@@ -67,7 +67,7 @@ stepAnalysis:               true
 # theme to use (located by default in /themes/THEMENAME/)
 themesDir:                  "themes"
 theme:                      "iammatthias_v2"
-title:                      "iammatthias"
+title:                      "I AM MATTHIAS"
 # if true, use /filename.html instead of /filename/
 uglyURLs:                   false
 watch:                      true
@@ -75,5 +75,5 @@ watch:                      true
 
 params:
   Author: Matthias Jordan
-  Description: Just a dude
+  Description: Product & Marketing Coordinator @ Surf Air | Photographer, home chef, and lover of the great outdoors.
 ---

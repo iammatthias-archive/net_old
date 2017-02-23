@@ -1,7 +1,7 @@
 +++
 title = "Events"
 date = "2016-12-30T19:28:28-08:00"
-filter = "events"
+filter = """events"""
 cover = "/assets/photos/events/coverimage.jpg"
 +++
 
