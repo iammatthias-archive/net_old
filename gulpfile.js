@@ -22,6 +22,7 @@ gulp.task("scss", function () {
     gulp.src("themes/iammatthias_v2/src/css/**/*.scss")
         .pipe(sass({outputStyle : "compressed"}))
         .pipe(autoprefixer({browsers : ["last 20 versions"]}))
+
         .pipe(hash())
         .pipe(gulp.dest("themes/iammatthias_v2/static/css"))
         //Create a hash map
