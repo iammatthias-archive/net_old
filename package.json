@@ -1,7 +1,7 @@
 {
   "name": "com",
-  "version": "0.0.1",
-  "description": "Personal portfolio, built with Hugo and Bulma",
+  "version": "0.0.2",
+  "description": "Built with hugo",
   "main": "index.js",
   "repository": {},
   "license": "MIT",

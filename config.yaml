@@ -40,7 +40,7 @@ editor:                     "atom"
 # See www.emoji-cheat-sheet.com
 enableEmoji:                true
 # google analytics tracking id
-googleAnalytics:            ""
+googleAnalytics:            "UA-22618780-6"
 languageCode:               ""
 layoutDir:                  "themes/iammatthias_v2/layouts"
 # "yaml", "toml", "json"

@@ -21,7 +21,7 @@ section {
       overflow: hidden;
   }
 
-  .fill img {
+  .fill img,video {
       flex-shrink: 0;
       min-width: 100%;
       max-height: 550px;
