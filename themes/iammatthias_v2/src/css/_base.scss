@@ -21,11 +21,15 @@ section {
       overflow: hidden;
   }
 
-  .fill img,video {
+  .fill img {
       flex-shrink: 0;
       min-width: 100%;
-      max-height: 550px;
+      max-height: 555px;
   }
+    .fill video {
+        flex-shrink: 0;
+        min-width: 100%;
+    }
 }
 
 @media only screen and (min-width: 48em) {
@@ -46,6 +50,10 @@ section {
       min-width: 100%;
       max-height: 650px;
   }
+  .fill video {
+      flex-shrink: 0;
+      min-width: 100%;
+  }
 }
 @media only screen and (min-width: 64em) {
   section {
@@ -65,6 +73,10 @@ section {
       min-width: 100%;
       max-height: 750px;
   }
+    .fill video {
+        flex-shrink: 0;
+        min-width: 100%;
+    }
 }
 
 
