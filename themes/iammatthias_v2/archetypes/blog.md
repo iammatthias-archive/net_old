@@ -5,5 +5,5 @@ description : ""
 date : ""
 type : "blog"
 slug : ""
-tags : ""
+tags : [""]
 ---

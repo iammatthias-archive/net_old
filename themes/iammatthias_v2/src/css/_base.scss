@@ -3,6 +3,9 @@ body {
 
 }
 
+img, canvas, iframe, video, svg, select, textarea {
+  max-width: 100%; }
+
 section {
     width: 85%;
     margin: 0 auto;
@@ -14,22 +17,6 @@ section {
       width: 85%;
       margin: 0 auto;
   }
-  .fill {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-  }
-
-  .fill img {
-      flex-shrink: 0;
-      min-width: 100%;
-      max-height: 555px;
-  }
-    .fill video {
-        flex-shrink: 0;
-        min-width: 100%;
-    }
 }
 
 @media only screen and (min-width: 48em) {
@@ -38,22 +25,6 @@ section {
       margin: 0 auto;
   }
 
-  .fill {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-  }
-
-  .fill img {
-      flex-shrink: 0;
-      min-width: 100%;
-      max-height: 650px;
-  }
-  .fill video {
-      flex-shrink: 0;
-      min-width: 100%;
-  }
 }
 @media only screen and (min-width: 64em) {
   section {
@@ -61,22 +32,6 @@ section {
       margin: 0 auto;
   }
 
-  .fill {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-  }
-
-  .fill img {
-      flex-shrink: 0;
-      min-width: 100%;
-      max-height: 750px;
-  }
-    .fill video {
-        flex-shrink: 0;
-        min-width: 100%;
-    }
 }
 
 

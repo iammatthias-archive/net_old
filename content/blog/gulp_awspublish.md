@@ -9,12 +9,12 @@ title = "Setting up gulp awspublish"
 tags = ["hugo", "gulp", "aws"]
 type = "blog"
 +++
-# How am I going to deploy this?
+### How am I going to deploy this?
 Even after a lot of optimizing, my site still have a pretty heavy footprint. There's a lot of pictures. But I don't want to keep my pictures on a public Github repo, which is why I'm not using a build tool like Travic CI, Circle, CI, etc.
 
 There are a lot of options for deploying to S3 using Gulp. There's [Gulp S3](https://github.com/nkostelnik/gulp-s3), [Gulp S3 Upload](https://github.com/nkostelnik/gulp-s3), & [Gulp AWSPublish](https://github.com/pgherveou/gulp-awspublish). I chose AWSPublish because it seemed like the best maintained option, and there are a lot of blog posts like this one that detail how people set it up for themselves.
 
-## The Gulp
+#### The Gulp
 
 ```
 var awspublish = require('gulp-awspublish');
