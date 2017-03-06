@@ -11,7 +11,7 @@
                     <div class="box fill ">
 <h1>404: Page Not Found</h1>
                         <p>
-                        It looks like you found a page that doesn't exist! Here's a 404 gif, and the code behind it, as a consolation prize before heading <a href="/">home</a>.
+                        It looks like you found a page that doesn't exist! Here's a gif, and the code behind it, as a consolation prize before heading <a href="/">home</a>.
 </p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	q = "finger guns"; // search query
 
 	request = new XMLHttpRequest;
-	request.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&rating=pg&tag=404+not+found'+q, true);
+	request.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&rating=pg&tag=arrested-development+404-not-found'+q, true);
 
 	request.onload = function() {
 		if (request.status >= 200 && request.status < 400){

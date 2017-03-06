@@ -5,7 +5,18 @@ body {
 
 img, canvas, iframe, video, svg, select, textarea {
   max-width: 100%; }
-pre, code {word-wrap: break-word;}
+pre {padding: .5rem;
+overflow: scroll;
+background-color: $purewhite;
+code {
+padding: 0rem;
+background-color: transparent;
+}
+}
+code {
+padding: .25rem;
+background-color: $purewhite;
+}
 
 section {
     width: 85%;
