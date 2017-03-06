@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head" . }}
+
+<body class="Site">
+    {{ partial "nav" . }}
+    <main class="Site-content">
+<section>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="box fill ">
+<h1>404: Page Not Found</h1>
+                        <p>
+                        It looks like you found a page that doesn't exist! Here's a 404 gif, and the code behind it, as a consolation prize before heading <a href="/">home</a>.
+</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="box fill ">
+<p>
+
+<span id = "giphyme"></span>
+</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="box fill ">
+
+<p>
+                            <pre><code>
+document.addEventListener('DOMContentLoaded', function () {
+	q = "finger guns"; // search query
+
+	request = new XMLHttpRequest;
+	request.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&rating=pg&tag=404+not+found'+q, true);
+
+	request.onload = function() {
+		if (request.status >= 200 && request.status < 400){
+			data = JSON.parse(request.responseText).data.image_url;
+			console.log(data);
+			document.getElementById("giphyme").innerHTML = '<<code>img src = "'+data+'"  title="404 Gif - Powered by GIPHY"</code>>';
+		} else {
+			console.log('reached giphy, but API returned an error');
+		 }
+	};
+
+	request.onerror = function() {
+		console.log('connection error');
+	};
+
+	request.send();
+});
+</code></pre>
+
+</p>
+                    </div>
+                </div>
+            </div>
+<section>
+    </main>
+    {{ partial "footer" . }}
+<script src="/js/{{ index .Site.Data.js.hash "giphy.js" }}"></script>
+</body>
+
+</html>
