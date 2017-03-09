@@ -2,9 +2,7 @@ var gulp         = require("gulp"),
     sass         = require("gulp-sass"),
     autoprefixer = require("gulp-autoprefixer"),
     hash         = require("gulp-hash"),
-    awspublish   = require("gulp-awspublish"),
     del          = require("del"),
-    parallelize = require("concurrent-transform"),
     plumber = require('gulp-plumber');
 
 
@@ -54,27 +52,6 @@ gulp.task("watch", ["scss", "js", "assets"], function () {
     gulp.watch("themes/iammatthias_v2/src/js/**/*", ["js"])
     gulp.watch("themes/iammatthias_v2/src/assets/**/*", ["assets"])
 })
-
-
-// Publish to AWS S3
-gulp.task('publish', function() {
-  var publisher = awspublish.create({
-    region: 'us-west-1',
-    params: {
-      Bucket: 'iammatthias.com'
-    }
-  });
-  var headers = {
-    'Cache-Control': 'max-age=315360000, no-transform, public'
-  };
-  return gulp.src('./public/**')
-    .pipe(awspublish.gzip())
-    .pipe(parallelize(publisher.publish(headers), 250))
-    .pipe(publisher.cache())
-    .pipe(publisher.sync())
-    .pipe(awspublish.reporter({
-      states: ['create', 'update', 'delete'] }));
-});
 
 
 gulp.task('default', ['scss', 'js', "assets", 'watch']);
