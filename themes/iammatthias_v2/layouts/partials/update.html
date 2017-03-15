@@ -1,0 +1,17 @@
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="box links">
+<ul>
+                        {{ range first 1 (where .Site.Pages.ByDate.Reverse "Section" "blog") }}
+                        <li>
+                            <h4><a href="{{ .Permalink }}">Latest post: {{ .Title }}</a></h4>
+                            <small><strong>{{ .Date.Format "Mon, Jan 2, 2006" }} //</strong> {{ .Description }}</small><br /><br />
+                        </li><br />
+                        {{ end }}
+</ul>
+            </div>
+        </div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+{{ partial "twitter" . }}
+</div>
+</div>

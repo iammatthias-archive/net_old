@@ -6,7 +6,7 @@
     }
 
     li {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid $grey-light;
     }
 
     li:last-child {
@@ -15,7 +15,7 @@
 
     li a {
         text-decoration: none;
-        color: #000;
+        color: $black;
         display: block;
     }
 }
@@ -30,7 +30,7 @@ footer {
     }
 
     li {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid $grey-light;
     }
 
     li:last-child {
@@ -39,14 +39,14 @@ footer {
 
     li a {
         text-decoration: none;
-        color: #000;
+        color: $black;
         display: block;
         width: 200px;
         font-family: $family-primary;
     }
     li a:visited {
 
-        color: #000;
+        color: $black;
 
     }
 }

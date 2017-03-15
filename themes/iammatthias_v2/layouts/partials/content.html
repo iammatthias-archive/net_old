@@ -1,17 +1,6 @@
 <section>
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="box links">
-<ul>
-                        {{ range first 1 (where .Site.Pages.ByDate.Reverse "Section" "blog") }}
-                        <li>
-                            <h4><a href="{{ .Permalink }}">Latest post: {{ .Title }}</a></h4>
-                            <small><strong>{{ .Date.Format "Mon, Jan 2, 2006" }} //</strong> {{ .Description }}</small><br /><br />
-                        </li><br />
-                        {{ end }}
-</ul>
-            </div>
-        </div>
+{{ partial "update" . }}
+
 </section>
 
 <section>

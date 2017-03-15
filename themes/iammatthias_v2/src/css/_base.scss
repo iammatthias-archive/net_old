@@ -64,3 +64,11 @@ section {
 .logo {
 width: 2rem;
 }
+
+#tweets {
+padding-left: 1rem;
+border-left: 1px solid $grey-light;
+li a {
+    display: inline;
+}
+}
