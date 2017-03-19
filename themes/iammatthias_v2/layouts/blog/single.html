@@ -19,12 +19,18 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="box links">
                           {{ .Content }}
-              <br>
-              <p><a href="/blog/">Back to posts</a></p>
-              <p><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}">Previous</a> | <a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}">Next</a></p>
+
                     </div>
                 </div>
             </div>
+
+      <div class="row">
+              <div class="col-xs-12">
+        <p><a href="/blog/">Back to posts</a></p>
+        <p><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}">Previous</a> | <a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}">Next</a></p>
+              </div>
+          </div>
+      </div>
         </section>
 
     </main>
