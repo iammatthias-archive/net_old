@@ -11,7 +11,7 @@ type: blog
 
 This post, [Animating SVG polygons](https://codepen.io/nsayenko/post/animating-svg-polygons-tutorial), on Codepen is what got me started after kicking the idea around for a bit.
 
-![Cover Image ex](/assets/coverimage_people.jpg#floatright-md)
+![Example: A portrait of a Buddhist student - Processed with Primitive](/assets/coverimage_people.jpg#floatright-md)
 
 I started by running `primitive -i ./coverimage.jpg -o ./coverimage.jpg.jpg -n 1500 -m 1 -s 2048`. The `-n 1500` specifies 1500 polygons, `-m 1` is for the triangles, and `-s 2048` is the output image size.
 
