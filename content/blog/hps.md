@@ -12,7 +12,7 @@ type: blog
 
 That's where [HugoPhotoSwipe](https://github.com/GjjvdBurg/HugoPhotoSwipe) comes into the picture. HugoPhotoSwipe, or HPS for short, is a Python command line tool for generating Photoswipe galleries that will play nicely with [Hugo](https://gohugo.io). I highly recomend checking out the [wiki in the repo](https://github.com/GjjvdBurg/HugoPhotoSwipe/wiki) for the full documentation - the author, [Gertjan van den Burg](https://gertjanvandenburg.com), created a very useful shortcode and documents the layout/content structure for HPS.
 
-I tweaked my implimentation a bit.
+I tweaked my implementation a bit.
 
 #### The Shortcode
 ```
