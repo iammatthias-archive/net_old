@@ -26,8 +26,6 @@ disableLiveReload:          false
 disableRSS:                 true
 # Do not build Sitemap file
 disableSitemap:             false
-# Enable GitInfo feature
-enableGitInfo:              true
 # Build robots.txt file
 enableRobotsTXT:            true
 # Do not render 404 page

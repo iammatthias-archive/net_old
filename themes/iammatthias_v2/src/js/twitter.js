@@ -165,7 +165,7 @@
                         }
                         d =
                             "";
-                        H ? (v && (G(a[c]), n && G(k[c])), d += '<p><small><a href="https://twitter.com/iamMatthias">Latest Tweet</a></small>' + '<br><small class="tweet">' + q(a[c].innerHTML) + '</small>', A && (d = J ? d + ('<small class="timePosted"><a href="' + p[c] + '">' + '&nbsp;//&nbsp;' + g[c].getAttribute("aria-label") + "</a></small>") : d + ('<small class="timePosted">' + g[c].getAttribute("aria-label") + "</small>"))) : (n && (d += '<small class="user">' + k[c].textContent + "</small>"), d += '<small class="tweet">' + a[c].textContent + "</small>", A && (d += '<small class="timePosted">' + g[c].textContent + "</small></p>"));
+                        H ? (v && (G(a[c]), n && G(k[c])), d += '<p><small><a href="https://twitter.com/iamMatthias">Latest Tweet</a></small>' + '<br><small class="tweet">' + q(a[c].innerHTML) + '</small>', A && (d = J ? d + ('<br><small class="timePosted"><a href="' + p[c] + '">' + g[c].getAttribute("aria-label") + "</a></small>") : d + ('<small class="timePosted">' + g[c].getAttribute("aria-label") + "</small>"))) : (n && (d += '<small class="user">' + k[c].textContent + "</small>"), d += '<small class="tweet">' + a[c].textContent + "</small>", A && (d += '<small class="timePosted">' + g[c].textContent + "</small></p>"));
                         u ? b.push(d) : !u && a[c].textContent.length &&
                             b.push(d);
                         c++

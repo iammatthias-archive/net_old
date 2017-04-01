@@ -169,6 +169,7 @@ width: 2rem;
 }
 
 #tweets {
+overflow-wrap: break-word;
 padding-left: 1rem;
 border-left: 1px solid $grey-light;
 li a {
