@@ -1,8 +1,7 @@
 <p align="center"><img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" width="250"></p>
 
 ---
-<iframe src="//giphy.com/embed/l4FGJKKnxDpFZQ5FK?html5=true&playOnHover=true&hideSocial=true" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
-<iframe src="https://giphy.com/gifs/l4FGJKKnxDpFZQ5FK/tile" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l4FGJKKnxDpFZQ5FK">via GIPHY</a></p>
+![site gif](http://giphy.com/go/OWY0YTQxNDct)
 
 #### Built Using:
 - [Hugo](https://gohugo.io)
