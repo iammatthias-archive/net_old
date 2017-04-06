@@ -2,6 +2,7 @@
 
 ---
 ![site gif](http://giphy.com/go/OWY0YTQxNDct)
+<p align="center"><img src="http://giphy.com/go/OWY0YTQxNDct" alt="site gif" width="100%"></p>
 
 #### Built Using:
 - [Hugo](https://gohugo.io)
