@@ -34,8 +34,8 @@
 
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="box">
-                        <p>{{ .Params.Description1 }}</p>
-                        <p>{{ .Params.Description2 }}</p>
+                        <p>{{ .Params.Description1 | markdownify }}</p>
+                        <p>{{ .Params.Description2 | markdownify }}</p>
                         <p>{{ .Params.Description3 }}</p>
                     </div>
                 </div>
