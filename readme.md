@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" style="width: 100px;"/>
-=======
-# ![iammatthias](https://iammatthias.com/assets/logo_black.svg =250x)
->>>>>>> parent of a9941db... readme
-
+![](https://iammatthias.com/assets/logo_black.svg | width=100)
 ---
 #### Built Using:
 [Hugo](https://gohugo.io)
