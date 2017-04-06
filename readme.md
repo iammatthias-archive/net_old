@@ -1,4 +1,4 @@
-# ![iammatthias](https://iammatthias.com/assets/logo_black.svg =250x)
+<img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" style="width: 200px;"/>
 
 ---
 #### Built Using:
