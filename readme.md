@@ -1,5 +1,4 @@
-![](https://iammatthias.com/assets/logo_black.svg | width=100)
-<img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" width="250">
+<img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" align="center" width="250">
 ---
 #### Built Using:
 [Hugo](https://gohugo.io)
