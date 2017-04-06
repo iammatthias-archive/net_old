@@ -1,12 +1,7 @@
 <p align="center"><img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" width="250"></p>
 
 ---
-<<<<<<< HEAD
 ![site gif](http://giphy.com/go/OWY0YTQxNDct)
-=======
-<iframe src="https://giphy.com/embed/l4FGJKKnxDpFZQ5FK?html5=true&playOnHover=true&hideSocial=true" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
->>>>>>> master
 
 #### Built Using:
 - [Hugo](https://gohugo.io)
