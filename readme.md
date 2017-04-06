@@ -1,7 +1,7 @@
 <p align="center"><img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" width="250"></p>
 
 ---
-<p align="center"><img src="https://giphy.com/gifs/xUPGcGw5g7dDJKm9xe/html5" alt="site gif" width="100%"></p>
+<p align="center"><img src="https://giphy.com/gifs/xUPGcGw5g7dDJKm9xe/tile" alt="site gif" width="100%"></p>
 
 #### Built Using:
 - [Hugo](https://gohugo.io)
