@@ -1,5 +1,7 @@
-<img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" align="center" width="250">
+<p align="center"><img src="https://iammatthias.com/assets/logo_black.svg" alt="iammatthias" width="250"></p>
+
 ---
+
 #### Built Using:
 [Hugo](https://gohugo.io)
 [Photoswipe](http://photoswipe.com)
