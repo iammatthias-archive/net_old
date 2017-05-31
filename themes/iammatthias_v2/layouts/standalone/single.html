@@ -12,10 +12,9 @@
                 <div class="container col-xs-12">
 
                     <h1 class="text-primary">{{ .Title }}</h1>
-                    <h5 class="text-primary">{{ partial "gal_filter" . }}</h5>
                     <div class="grid gallery" itemscope itemtype="https://schema.org/ImageGallery">
                         <div class="grid-sizer"></div>
-                        {{ range where .Site.Pages "Section" "gal" }} {{ .Content }} {{ end }}
+                        {{ .Content }}
                     </div>
 
                     <div class="pswp" role="dialog" aria-hidden="true" tabindex="-1">

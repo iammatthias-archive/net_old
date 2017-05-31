@@ -8,15 +8,15 @@ small {  font-family: $family-primary;
   font-weight: regular;}
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.441rem;
 }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: 1.953rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.563rem;
 }
 
 h4 {
@@ -28,12 +28,12 @@ h5 {
 }
 
 h6, small {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
 }
 
 p {
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1rem;
+  line-height: 2rem;
   font-family: $family-primary;
   color: $text;
 }

@@ -1,14 +1,3 @@
-+++
-resources = [
-]
-slug = ""
-Author = "Matthias Jordan"
-Description = "I used to publish my site with a Netlify/Gihub combination. Now I'm using Gulp to pipe my production files to AWS S3."
-date = "2017-01-02T21:47:53-08:00"
-title = "Setting up gulp awspublish"
-tags = ["hugo", "gulp", "aws"]
-type = "blog"
-+++
 ### How am I going to deploy this?
 Even after a lot of optimizing, my site still have a pretty heavy footprint. There's a lot of pictures. But I don't want to keep my pictures on a public Github repo, which is why I'm not using a build tool like Travic CI, Circle, CI, etc.
 
@@ -38,10 +27,10 @@ gulp.task('publish', function() {
 });
 ```
 
-Assuming you want to use AWSPublish, that you already have it installed, and that you configured your AWS Credentials, just copy that chunk of code and add it to your Gulp file. Make sure you change out **REGION** and **YOURDOMAINHERE.com** with your AWS region and bucket name. Run whatever build tools you need to run for your static site, and point **./public/**** in **return gulp.src('./public/')** to where you output your built site. Then it's a simple **gulp publish** to send everything to your bucket.
+Assuming you want to use AWSPublish, that you already have it installed, and that you configured your AWS Credentials, copy that chunk of code and add it to your Gulp file. Make sure you change out **REGION** and **YOURDOMAINHERE.com** with your AWS region and bucket name. Run whatever build tools you need to run for your static site, and point **./public/**** in **return gulp.src('./public/')** to where you output your built site. Then it's a simple **gulp publish** to send everything to your bucket.
 
 My site is built using [Hugo](https://gohugo.io), so I need to run the **build** stage of my Gulp file and the **hugo** command in order to have an up-to-date **./public** folder to upload. I strung the commands together as an alias in my **.zshrc** file like so:
 ```
 alias publish="gulp build && hugo && gulp publish && rm -rf public"
 ```
-Now I can just run **publish** to bulk, deploy, and clean up.
+Now I can run **publish** to bulk, deploy, and clean up.

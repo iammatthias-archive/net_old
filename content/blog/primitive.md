@@ -7,7 +7,7 @@ tags: ["Primitive", "golang", "go", "geometric primitives", "codepen"]
 title: "Primitive"
 type: blog
 ---
-[Primitive](https://github.com/fogleman/primitive) is pretty cool. It's popped up on Reddit a few times, and I really like the painterly effect it can give images. Primitive is used for "reproducing images with geometric primitives". In the process of rebuilding my site, I decided that the photography gallery needed something different. The thumbnails needed some character to them, and Primitive fit the bill nicely.
+[Primitive](https://github.com/fogleman/primitive) is pretty cool. It's popped up on Reddit a few times, and I like the painterly effect it can give images. Primitive is used for "reproducing images with geometric primitives". While rebuilding my site, I decided that the photography gallery needed something different. The thumbnails needed some character to them, and Primitive fit the bill.
 
 This post, [Animating SVG polygons](https://codepen.io/nsayenko/post/animating-svg-polygons-tutorial), on Codepen is what got me started after kicking the idea around for a bit.
 
@@ -15,7 +15,7 @@ This post, [Animating SVG polygons](https://codepen.io/nsayenko/post/animating-s
 
 I started by running `primitive -i ./coverimage.jpg -o ./coverimage.jpg.jpg -n 1500 -m 1 -s 2048`. The `-n 1500` specifies 1500 polygons, `-m 1` is for the triangles, and `-s 2048` is the output image size.
 
-This works, but it would take forever to run the `primitive` for each image individually. Much nicer to automate these things.
+This works, but it would take forever to run the `primitive` for each image. Much nicer to automate these things.
 
 `cd` into the directory you want to process, and run this script:
 

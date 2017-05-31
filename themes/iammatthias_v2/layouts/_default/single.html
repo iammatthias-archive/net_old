@@ -13,8 +13,8 @@
                         <ul>
                         {{ range where .Site.Pages.ByDate.Reverse "Section" "blog" }}
                         <li>
-                            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-                            <h3>{{ .Date.Format "Mon, Jan 2, 2006" }} // // {{ .Date.Format "Mon, Jan 2, 2006" }}</h3>
+                            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                            <h4>{{ .Date.Format "Mon, Jan 2, 2006" }} // // {{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
                             <p>{{ .Description }}</p>
                             <small>Tags: {{ .Params.tags }}<br /><br /><br /></small>
                         </li><br />
