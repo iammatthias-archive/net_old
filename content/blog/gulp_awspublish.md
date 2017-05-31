@@ -1,3 +1,13 @@
+---
+author: Matthias Jordan
+date: 2017-01-02T21:47:53-08:00
+description: "I used to publish my site with a Netlify/Gihub combination. Now I'm using Gulp to pipe my production files to AWS S3."
+slug: ""
+tags: ["hugo", "gulp", "aws"]
+title: "Setting up gulp awspublish"
+type: blog
+---
+
 ### How am I going to deploy this?
 Even after a lot of optimizing, my site still have a pretty heavy footprint. There's a lot of pictures. But I don't want to keep my pictures on a public Github repo, which is why I'm not using a build tool like Travic CI, Circle, CI, etc.
 

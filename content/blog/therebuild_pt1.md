@@ -1,14 +1,13 @@
-+++
-resources = [
-]
-slug = ""
-Author = "Matthias Jordan"
-Description = "I rebuilt my site using Hugo, implemented Gulp as a build tool, and learned a lot in the process."
-date = "2016-12-11T21:47:53-08:00"
-title = "The Rebuild, Part 1"
-tags = ["hugo", "harp", "gulp", "aws"]
-type = "blog"
-+++
+---
+author: Matthias Jordan
+date: 2016-12-11T21:47:53-08:00
+description: "I rebuilt my site using Hugo, implemented Gulp as a build tool, and learned a lot in the process."
+slug: ""
+tags: ["hugo", "harp", "gulp", "aws"]
+title: "The Rebuild, Part 1"
+type: blog
+---
+
 ### I rebuilt my site. Again.
 
  Around this time last year I finished rebuilding it as well. HarpJS was the static site generator of choice for a long time, but I recently made the jump to Hugo. That meant relearning, and redesigning some aspects of my site. It also took a lot longer than I thought. But here are some of the cool things that developed along the way.

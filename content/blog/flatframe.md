@@ -3,7 +3,7 @@ author: Matthias Jordan
 date: 2017-05-28T21:46:13-07:00
 description: "1 minute of 4K footage blended into 1 image."
 slug: ""
-tags: ["DJI, Mavic, Mavic Pro, Drone, 4k, viedeo, photography, arial photography, drone photography, photography"]
+tags: ["DJI", "Mavic", "Mavic Pro", "Drone", "4k", "video", "photography", "aerial photography", "drone photography", "photography"]
 title: "Flatframe"
 type: blog
 ---

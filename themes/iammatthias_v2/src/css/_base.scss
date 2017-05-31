@@ -176,3 +176,72 @@ li a {
     display: inline;
 }
 }
+
+
+.blog-links {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        border-bottom: none;
+    }
+
+    li:last-child {
+        border: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: $black;
+        display: block;
+    }
+}
+
+.links {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        border-bottom: 1px solid $grey-light;
+    }
+
+    li:last-child {
+        border: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: $black;
+        display: block;
+    }
+}
+
+#tags {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+        margin: 0 .618em;
+        border-bottom: none;
+    }
+
+    li:first-child {
+        margin: 0 0px;
+        border-bottom: none;
+    }
+
+    li:last-child {
+        border: none;
+    }
+
+}

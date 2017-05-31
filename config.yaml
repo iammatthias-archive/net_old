@@ -70,6 +70,8 @@ title:                      "I AM MATTHIAS"
 uglyURLs:                   false
 watch:                      true
 
+taxonomies:
+  tag: "tags"
 
 params:
   Author: Matthias Jordan

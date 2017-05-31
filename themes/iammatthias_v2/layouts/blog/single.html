@@ -9,11 +9,16 @@
         <section>
             <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div class="box links">
-<p><a href="/blog/">Back to posts</a></p>
+                        <div class="box" id="tags">
+<p><a href="/blog/">Back to the posts</a></p>
                               <h2>{{ .Title }}</h2>
                   <h4>Reading Time: {{ .ReadingTime }} minutes // {{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
-                  <small>Tags: {{ .Params.tags }}</small>
+                  <small>Tags: <ul>
+
+  {{ range .Params.tags }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+{{ end }}
+</ul></small>
                         </div>
                     </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

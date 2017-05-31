@@ -9,14 +9,19 @@
         <section>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="box links">
+                    <div class="box blog-links">
                         <ul>
                         {{ range where .Site.Pages.ByDate.Reverse "Section" "blog" }}
                         <li>
                             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                             <h4>{{ .Date.Format "Mon, Jan 2, 2006" }} // // {{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
                             <p>{{ .Description }}</p>
-                            <small>Tags: {{ .Params.tags }}<br /><br /><br /></small>
+                            <small id="tags">Tags: <ul>
+
+            {{ range .Params.tags }}
+              <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+          </ul></small>
                         </li><br />
                         {{ end }}
                         </ul>

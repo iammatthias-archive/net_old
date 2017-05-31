@@ -3,7 +3,7 @@ author: Matthias Jordan
 date: 2017-05-02T20:10:29-07:00
 description: "I bought a drone, and it's my new favorite toy."
 slug: ""
-tags: ["DJI, Mavic, Mavic Pro, Drone, 4k, viedeo, photography, arial photography, drone photography, photography"]
+tags: ["DJI", "Mavic", "Mavic Pro", "Drone", "4k", "video", "photography", "aerial photography", "drone photography", "photography"]
 title: "DJI Mavic Pro or: How I Learned to Stop Worrying and Love the Drone"
 type: blog
 ---

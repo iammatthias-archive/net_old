@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head" . }}
+
+<body class="Site">
+    {{ partial "nav" . }}
+    <main class="Site-content">
+
+        <section>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="box links">
+<p><a href="/tags/">Back to the tags</a></p>
+    <h1 id="title">{{ .Title }}</h1>
+  <ul id="list">
+            {{ range .Data.Pages }}
+                <li>
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+<div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+</li>
+            {{ end }}
+        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    {{ partial "footer" . }}
+</body>
+
+</html>

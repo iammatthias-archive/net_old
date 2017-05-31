@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head" . }}
+
+<body class="Site">
+    {{ partial "nav" . }}
+    <main class="Site-content">
+
+        <section>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="box" id="tags">
+    <h2 id="title">{{ .Title }}</h2>
+<ul>
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+  {{ end }}
+</ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    {{ partial "footer" . }}
+</body>
+
+</html>
