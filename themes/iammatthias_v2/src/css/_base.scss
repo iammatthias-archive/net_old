@@ -1,5 +1,5 @@
 body {
-    background: $white;
+    background: $background;
 
 }
 
@@ -177,29 +177,6 @@ li a {
 }
 }
 
-
-.blog-links {
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    li {
-        border-bottom: none;
-    }
-
-    li:last-child {
-        border: none;
-    }
-
-    li a {
-        text-decoration: none;
-        color: $black;
-        display: block;
-    }
-}
-
 .links {
     ul {
         list-style-type: none;
@@ -243,5 +220,8 @@ li a {
     li:last-child {
         border: none;
     }
+
+    a {color: $black;}
+    a:visited {color: $black;}
 
 }
