@@ -9,7 +9,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row bottom-xs">
             <div class="col-xs-4">
                 <div class="start-xs box">
                     {{ partial "menu" . }}
@@ -19,7 +19,8 @@
                 <div class="start-xs box">
 
                     <small>© {{ .Site.Params.author }}</small><br />
-                    <small>{{ .Site.Params.description }}</small>
+                    <small>{{ .Site.Params.description }}</small><br /><br /><br />
+                    <small>{{ .Site.Params.attribution }}</small>
                 </div>
             </div>
         </div>
