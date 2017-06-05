@@ -1,5 +1,5 @@
 nav {
-    margin: 0.618rem 0;
+    margin: 0.618rem*2 0;
 
     input {
         display: none;
@@ -11,17 +11,17 @@ nav {
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(0,0,0,0.9);
+        background: rgba(245,245,245,0.9);
         z-index: 999;
     }
 
     .overlay label {
-        width: 58px;
-        height: 58px;
+        width: 48px;
+        height: 48px;
         position: absolute;
-        right: 20px;
-        top: 20px;
-        background: url('/assets/cross.png');
+        right: 38.2px;
+        top: 38.2px;
+        background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTAwIDEwMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik01MCw4OC41YzIxLjIsMCwzOC41LTE3LjMsMzguNS0zOC41UzcxLjIsMTEuNSw1MCwxMS41UzExLjUsMjguOCwxMS41LDUwUzI4LjgsODguNSw1MCw4OC41eiBNNTAsMTYuNSAgIGMxOC41LDAsMzMuNSwxNSwzMy41LDMzLjVTNjguNSw4My41LDUwLDgzLjVTMTYuNSw2OC41LDE2LjUsNTBTMzEuNSwxNi41LDUwLDE2LjV6Ii8+PHBhdGggZD0iTTM2LjIsNjMuOGMwLjUsMC41LDEuMSwwLjcsMS44LDAuN3MxLjMtMC4yLDEuOC0wLjdMNTAsNTMuNWwxMC4zLDEwLjNjMC41LDAuNSwxLjEsMC43LDEuOCwwLjdzMS4zLTAuMiwxLjgtMC43ICAgYzEtMSwxLTIuNiwwLTMuNUw1My41LDUwbDEwLjMtMTAuM2MxLTEsMS0yLjYsMC0zLjVjLTEtMS0yLjYtMS0zLjUsMEw1MCw0Ni41TDM5LjcsMzYuMmMtMS0xLTIuNi0xLTMuNSwwYy0xLDEtMSwyLjYsMCwzLjUgICBMNDYuNSw1MEwzNi4yLDYwLjNDMzUuMiw2MS4yLDM1LjIsNjIuOCwzNi4yLDYzLjh6Ii8+PC9nPjwvc3ZnPg==");
         z-index: 100;
         cursor: pointer;
     }
@@ -55,18 +55,19 @@ nav {
     .overlay ul li a {
         font-weight: 300;
         display: block;
-        color: white;
+        color: $info;
         text-decoration: none;
-        -webkit-transition: color 0.2s;
-        transition: color 0.2s;
-        font-family: $family-serif;
-        text-transform: uppercase;
     }
 
-    .overlay ul li a:focus,
     .overlay ul li a:hover {
-        color: $danger;
-    }
+        transition: .618s ease-in-out;
+        color: $olive;
+        }
+        a:active  {
+          transition: .618s ease-in-out;
+          color: $info;
+        }
+
 
     .nav-item~.overlay-hugeinc {
         opacity: 0;
@@ -106,54 +107,22 @@ nav {
     }
 }
 
-
-
-@-webkit-keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-12%, 0, 0);
-        transform: translate3d(-12%, 0, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-12%, 0, 0);
-        transform: translate3d(-12%, 0, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-.fadeInLeft {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-
-}
-
 .is-brand {
     opacity: 0;
     margin-left: 10px;
     overflow: hidden;
 }
 
-
-.logo {
-    -webkit-transition: -webkit-transform 0.8s ease-in-out;
-    transition: transform 0.8s ease-in-out;
-    background: $white;
-    z-index: 10;
+.logo, .nav-icon {
+width: 2rem;
 }
+
+// .logo {
+//     -webkit-transition: -webkit-transform 0.8s ease-in-out;
+//     transition: transform 0.8s ease-in-out;
+//     background: $white;
+//     z-index: 10;
+// }
 
 .nav-item:hover {
     .is-brand {
@@ -165,10 +134,10 @@ z-index:1;
         animation: fadeInLeft 1s;
     }
 
-    .logo {
-        -webkit-transform: rotate(720deg);
-        transform: rotate(720deg);
-        z-index: 10;
-        background: $white;
-    }
+    // .logo {
+    //     -webkit-transform: rotate(720deg);
+    //     transform: rotate(720deg);
+    //     z-index: 10;
+    //     background: $white;
+    // }
 }
