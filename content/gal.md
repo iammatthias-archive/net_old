@@ -1,6 +1,6 @@
 ---
 author : "Matthias Jordan"
-title: "PHOTOGRAPHY"
+title: "GALARY"
 description : "sadfasdfasdf"
 slug : ""
 tags : [""]

@@ -1,6 +1,11 @@
+:root {
+font-size: 16px;
+padding: 1.618%;
+background: $offwhite;
+}
 body {
     background: $background;
-
+    margin: 0px;
 }
 
 img, canvas, iframe, video, svg, select, textarea {
