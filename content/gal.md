@@ -1,7 +1,7 @@
 ---
 author : "Matthias Jordan"
-title: "GALARY"
-description : "sadfasdfasdf"
+title: "Gallery"
+description : "A collection of aerial, travel, portrait, and fine art photography."
 slug : ""
 tags : [""]
 type : "gal"

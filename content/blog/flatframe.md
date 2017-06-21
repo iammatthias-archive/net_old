@@ -15,7 +15,7 @@ I went out at sunset and found a small rock formation a little ways of shore. Th
 
 ![Ocean rocks at sunset - 2](/assets/photos/blog/20170528_drone_002.jpg)
 
-Laying down a blanket on the sand gave me a safe place to take off and land without damaging the rotors with sand. The drone went up and out, and soon it was above the rocks with a birds-eye view of the waves.
+Laying down a blanket on the beach gave me a safe place to take off and land without damaging the rotors with sand. The drone went up and out, and soon it was above the rocks with a birds-eye view of the waves.
 
 ![Ocean rocks at sunset - 3](/assets/photos/blog/20170528_drone_003.jpg)
 

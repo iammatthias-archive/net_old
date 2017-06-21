@@ -19,7 +19,7 @@
                 <div class="start-xs box">
 
                     <small>© {{ .Site.Params.author }}</small><br />
-                    <small>{{ .Site.Params.description }}</small><br /><br /><br />
+                    <small>{{ .Site.Params.description | markdownify }}</small><br /><br /><br />
                     <small>{{ .Site.Params.attribution }}</small>
                 </div>
             </div>
