@@ -5,7 +5,7 @@ description: "I did something dumb with Git and had to start over. But it's okay
 slug: ""
 tags: ["aws", "firebase", "gcs", "google cloud services", "hugo"]
 title: "The Rebuild, Part 2:  The Gittining"
-type: blog
+type: article
 ---
 
 Last time I posted I was pretty excited. I had configured a pretty sweet AWS setup that I was pushing to with Gulp, and my site was starting to look pretty cool. And then I did... something? I'm not sure what. But I lost some data on git due to a series of bad merges, and lost the local files when the external drive they were on decided to die.

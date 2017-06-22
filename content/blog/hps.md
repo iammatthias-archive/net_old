@@ -5,7 +5,7 @@ description: "Using HugoPhotoSwipe to build PhotoSwipe galleries in a painless w
 slug: ""
 tags: ["hugo","photoswipe", "hps", "HugoPhotoSwipe", "photography", "image gallery", "gallery"]
 title: "Hugo Photoswipe"
-type: blog
+type: article
 ---
 
 [PhotoSwipe](http://photoswipe.com) is one of the best JS image gallery libraries available at the moment. It's responsive, has full touch support, and is a joy to interact with as a user. The one downside is the need to define the size (w/h) for every image - a tedious task for a large gallery of images.

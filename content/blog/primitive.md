@@ -5,7 +5,7 @@ description: "A photography portfolio, geometric primitives, and a bash script."
 slug: ""
 tags: ["Primitive", "golang", "go", "geometric primitives", "codepen"]
 title: "Primitive"
-type: blog
+type: article
 ---
 [Primitive](https://github.com/fogleman/primitive) is pretty cool. It's popped up on Reddit a few times, and I like the painterly effect it can give images. Primitive is used for "reproducing images with geometric primitives". While rebuilding my site, I decided that the photography gallery needed something different. The thumbnails needed some character to them, and Primitive fit the bill.
 

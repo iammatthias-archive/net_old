@@ -5,7 +5,7 @@ description: "I used to publish my site with a Netlify/Gihub combination. Now I'
 slug: ""
 tags: ["hugo", "gulp", "aws"]
 title: "Setting up gulp awspublish"
-type: blog
+type: article
 ---
 
 ### How am I going to deploy this?

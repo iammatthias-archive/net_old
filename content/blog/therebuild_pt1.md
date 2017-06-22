@@ -5,7 +5,7 @@ description: "I rebuilt my site using Hugo, implemented Gulp as a build tool, an
 slug: ""
 tags: ["hugo", "harp", "gulp", "aws"]
 title: "The Rebuild, Part 1"
-type: blog
+type: article
 ---
 
 ### I rebuilt my site. Again.

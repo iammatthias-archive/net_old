@@ -5,7 +5,7 @@ description: "I bought a drone, and it's my new favorite toy."
 slug: ""
 tags: ["DJI", "Mavic", "Mavic Pro", "Drone", "4k", "video", "photography", "aerial photography", "drone photography", "photography"]
 title: "DJI Mavic Pro or: How I Learned to Stop Worrying and Love the Drone"
-type: blog
+type: article
 ---
 
 Drones are a tricky subject. There is a lot of controversy, and for good reason. There are [legitimate](https://iamkj.us/2pWdodN) [privacy concerns](https://iamkj.us/2pGr8IR), and [plenty](https://iamkj.us/2p3LJ68) [examples of](https://iamkj.us/2qqFCgK) [reckless](https://iamkj.us/2qqDAgN) [drone](https://iamkj.us/2pGsqnb) [usage](https://iamkj.us/2qqzpBF). But drones also present some amazing opportunities, and allow for an different point of view.

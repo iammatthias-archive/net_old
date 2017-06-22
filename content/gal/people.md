@@ -7,8 +7,6 @@ type = "standalone"
 +++
 
 {{< wrap >}}
-{{< photo href="/assets/photos/people/large/people-1_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/people/small/people-1_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/people/thumb/people-1_170x256.jpg" caption="" copyright="" >}}
-
 {{< photo href="/assets/photos/people/large/people-10_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-10_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-10_256x170.jpg" caption="" copyright="" >}}
 
 {{< photo href="/assets/photos/people/large/people-11_1600x1200.jpg" largeDim="1600x1200" smallUrl="/assets/photos/people/small/people-11_800x600.jpg" smallDim="800x600" alt="None" thumbSize="256x192" thumbUrl="/assets/photos/people/thumb/people-11_256x192.jpg" caption="" copyright="" >}}
@@ -19,14 +17,6 @@ type = "standalone"
 
 {{< photo href="/assets/photos/people/large/people-14_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-14_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-14_256x170.jpg" caption="" copyright="" >}}
 
-{{< photo href="/assets/photos/people/large/people-15_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-15_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-15_256x170.jpg" caption="" copyright="" >}}
-
-{{< photo href="/assets/photos/people/large/people-16_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-16_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-16_256x170.jpg" caption="" copyright="" >}}
-
-{{< photo href="/assets/photos/people/large/people-17_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-17_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-17_256x170.jpg" caption="" copyright="" >}}
-
-{{< photo href="/assets/photos/people/large/people-18_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-18_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-18_256x170.jpg" caption="" copyright="" >}}
-
 {{< photo href="/assets/photos/people/large/people-19_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-19_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-19_256x170.jpg" caption="" copyright="" >}}
 
 {{< photo href="/assets/photos/people/large/people-2_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/people/small/people-2_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/people/thumb/people-2_170x256.jpg" caption="" copyright="" >}}
@@ -34,8 +24,6 @@ type = "standalone"
 {{< photo href="/assets/photos/people/large/people-20_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/people/small/people-20_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/people/thumb/people-20_170x256.jpg" caption="" copyright="" >}}
 
 {{< photo href="/assets/photos/people/large/people-21_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/people/small/people-21_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/people/thumb/people-21_170x256.jpg" caption="" copyright="" >}}
-
-{{< photo href="/assets/photos/people/large/people-22_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-22_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-22_256x170.jpg" caption="" copyright="" >}}
 
 {{< photo href="/assets/photos/people/large/people-23_1600x1066.jpg" largeDim="1600x1066" smallUrl="/assets/photos/people/small/people-23_800x533.jpg" smallDim="800x533" alt="None" thumbSize="256x170" thumbUrl="/assets/photos/people/thumb/people-23_256x170.jpg" caption="" copyright="" >}}
 
@@ -50,8 +38,6 @@ type = "standalone"
 {{< photo href="/assets/photos/people/large/people-4_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/people/small/people-4_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/people/thumb/people-4_170x256.jpg" caption="" copyright="" >}}
 
 {{< photo href="/assets/photos/people/large/people-5_1600x1371.jpg" largeDim="1600x1371" smallUrl="/assets/photos/people/small/people-5_800x685.jpg" smallDim="800x685" alt="None" thumbSize="256x219" thumbUrl="/assets/photos/people/thumb/people-5_256x219.jpg" caption="" copyright="" >}}
-
-{{< photo href="/assets/photos/people/large/people-6_1600x1371.jpg" largeDim="1600x1371" smallUrl="/assets/photos/people/small/people-6_800x685.jpg" smallDim="800x685" alt="None" thumbSize="256x219" thumbUrl="/assets/photos/people/thumb/people-6_256x219.jpg" caption="" copyright="" >}}
 
 {{< photo href="/assets/photos/people/large/people-7_1066x1600.jpg" largeDim="1066x1600" smallUrl="/assets/photos/people/small/people-7_533x800.jpg" smallDim="533x800" alt="None" thumbSize="170x256" thumbUrl="/assets/photos/people/thumb/people-7_170x256.jpg" caption="" copyright="" >}}
 

@@ -5,7 +5,7 @@ description: "1 minute of 4K footage blended into 1 image."
 slug: ""
 tags: ["DJI", "Mavic", "Mavic Pro", "Drone", "4k", "video", "photography", "aerial photography", "drone photography", "photography"]
 title: "Flatframe"
-type: blog
+type: article
 ---
 
 See more here: [Flatframe](/gal/flatframe/)
